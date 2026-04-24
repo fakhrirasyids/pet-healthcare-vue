@@ -1,0 +1,273 @@
+{
+  "lang": {
+    "en": "English",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
+  },
+  "languageSwitcher": {
+    "shortEn": "EN",
+    "shortId": "ID",
+    "shortZh": "中文"
+  },
+  "common": {
+    "logoAlt": "GTTNano",
+    "demoCta": "Request a Live Demo",
+    "exploreCta": "Explore the Platform",
+    "contactSales": "Contact Sales"
+  },
+  "nav": {
+    "about": "About",
+    "technology": "Technology",
+    "pipeline": "Pipeline",
+    "contact": "Contact",
+    "openNav": "Open navigation",
+    "closeMenu": "Close navigation"
+  },
+  "hero": {
+    "kicker": "AI-native nano-precision oncology platform",
+    "title": "The Future of Early Cancer Detection",
+    "subtitle": "World’s first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
+    "primaryCta": "Request a Live Demo",
+    "secondaryCta": "Explore the Platform",
+    "cardTitle": "Future-forward innovation",
+    "cardBody": "A modular platform spanning early screening, surgical navigation, and next-generation therapeutic delivery.",
+    "imageAlt": "GTTNano precision targeting visualization"
+  },
+  "problem": {
+    "kicker": "The Problem",
+    "title": "Lack Of Precision Leads To Late Detection, Toxic Treatments, And Surgical Guesswork.",
+    "subtitle": "From missed diagnoses to incomplete surgeries—cancer care demands sharper tools.",
+    "cards": {
+      "gap": {
+        "title": "Precision Gap",
+        "desc": "Bridging oncology’s precision deficit across diagnosis, surgery, and therapy could save millions of lives - and it’s a US$400 billion market correction waiting to happen"
+      },
+      "limitations": {
+        "title": "Conventional Limitations",
+        "desc": "\"Conventional EPR and ligand-based systems leave over 95% of therapy off target, suffering from poor efficiency, unintended accumulation in healthy organs, and long-term toxicity.\""
+      },
+      "opportunity": {
+        "title": "Clinical Opportunity",
+        "desc": "GTTNano targets the tumor cell nucleus for earlier signal, cleaner margins, and higher-value interventions across the care pathway."
+      }
+    }
+  },
+  "showcase": {
+    "kicker": "How it works",
+    "title": "A New Era of Nano-Precision",
+    "subtitle": "Unlike traditional EPR or ligand-based systems, GTTN leverages a novel Cell Membrane Permeability Targeting (CMPT) mechanism—allowing it to penetrate tumor cells selectively and accumulate in the nucleus with unmatched precision.",
+    "cards": {
+      "detection": {
+        "title": "Ultra-sensitive early detection",
+        "desc": "Higher signal fidelity for detecting malignant changes before symptoms become obvious."
+      },
+      "navigation": {
+        "title": "Real-time fluorescence navigation",
+        "desc": "Sharper intraoperative guidance for defining margins and identifying metastatic spread."
+      },
+      "delivery": {
+        "title": "High-efficiency, low-toxicity delivery",
+        "desc": "More of the payload reaches malignant tissue while minimizing systemic exposure."
+      }
+    }
+  },
+  "hardware": {
+    "kicker": "HOW IT WORKS",
+    "title": "CMPT: A New Targeting Paradigm",
+    "subtitle": "The Next-Gen Targeting Mechanism",
+    "table": {
+      "headers": {
+        "feature": "Feature",
+        "cmpt": "CMPT (Cell Membrane Permeability Targeting)",
+        "epr": "EPR (Enhanced Permeability and Retention)",
+        "ligand": "Ligand-Mediated Targeting"
+      },
+      "rows": [
+        {
+          "feature": "Targeting Site",
+          "cmpt": "Tumor cell nucleus",
+          "epr": "Tumor tissue",
+          "ligand": "Specific tumor sites"
+        },
+        {
+          "feature": "Targeting Efficiency",
+          "cmpt": "> 50%",
+          "epr": "< 5%",
+          "ligand": "< 5%"
+        },
+        {
+          "feature": "Targeting Mechanism",
+          "cmpt": "Tumor cell membrane permeability alteration",
+          "epr": "Leaky tumor vasculature",
+          "ligand": "Specific binding between ligand and receptor"
+        },
+        {
+          "feature": "In Vivo Distribution",
+          "cmpt": "No significant accumulation in normal tissues",
+          "epr": "Remains in liver/kidney for several months or even years",
+          "ligand": "Distributed in liver and kidney"
+        },
+        {
+          "feature": "Toxicity",
+          "cmpt": "Non-toxic",
+          "epr": "Long-term toxicity",
+          "ligand": "Long-term toxicity"
+        }
+      ]
+    }
+  },
+  "benefits": {
+    "kicker": "Minimum-Toxicity, Proven Across Species",
+    "title": "Exceptional Biocompatibility",
+    "cards": {
+      "cellSafe": {
+        "title": "Cell Safe",
+        "desc": "In vitro tests show no significant toxicity to living cells, even at high concentrations and long exposure times."
+      },
+      "systemic": {
+        "title": "No Systemic Toxicity",
+        "desc": "After intravenous injection, GTTN showed no harmful effects on organ function, reproduction, or blood chemistry."
+      },
+      "hepatic": {
+        "title": "No Hepatotoxicity",
+        "desc": "Liver function remains normal, confirming excellent biocompatibility in large animal models."
+      },
+      "environment": {
+        "title": "No Environmental Toxicity",
+        "desc": "Zebrafish embryo tests revealed no developmental or ecological toxicity."
+      }
+    }
+  },
+  "oneHealth": {
+    "kicker": "AI At Its Core",
+    "title": "World’s 1st AI-Native Nano-Biosynthesis",
+    "cards": {
+      "omics": {
+        "title": "New Biology, New Omics",
+        "desc": "TransCellOmics: 1st AI-driven permeability database and predictive model."
+      },
+      "generative": {
+        "title": "Generative AI Meets Nanodesign",
+        "desc": "Combining GTTNano’s flexible synthesis capabilities with AI for high value products."
+      },
+      "dimension": {
+        "title": "A new dimension of multi-omics",
+        "desc": "Introducing real-time, spatially resolved data on cell membrane permeability."
+      }
+    }
+  },
+  "software": {
+    "kicker": "Pipeline of possibilities",
+    "title": "Platform Technology",
+    "cards": {
+      "dx": {
+        "title": "GTTN-Dx\nGTTN-SCI",
+        "desc": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now commercially available.",
+        "plain": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now ",
+        "bold": "commercially available."
+      },
+      "navi": {
+        "title": "GTTN-Navi",
+        "desc": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with expected approval by 2026–2027.",
+        "plain": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with ",
+        "bold": "expected approval by 2026–2027."
+      },
+      "tx": {
+        "title": "GTTN-Tx",
+        "desc": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected approval by 2029.",
+        "plain": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected ",
+        "bold": "approval by 2029."
+      },
+      "next": {
+        "title": "Next in Line",
+        "desc": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering regulatory submission soon.",
+        "plain": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering ",
+        "bold": "regulatory submission soon."
+      }
+    }
+  },
+  "library": {
+    "kicker": "Product spotlight",
+    "title": "Built for Screening, Surgery, and Research",
+    "products": {
+      "dx": {
+        "eyebrow": "GTTN-Dx: early cancer screening",
+        "title": "Screen before Symptoms",
+        "desc": "An affordable, easy-to-use solution for broad-spectrum cancer risk detection across multiple tumor types with minimal cost and complexity.",
+        "points": [
+          "High-sensitivity molecular detection",
+          "Compatible with standard clinical imaging workflows",
+          "cFDA registered and commercially available"
+        ]
+      },
+      "navi": {
+        "eyebrow": "GTTN-Navi: empowering pathologists and surgeons",
+        "title": "Maps every lesion. Guides every move.",
+        "desc": "Real-time visualization of tumor boundaries gives clinicians cleaner margins, clearer metastasis mapping, and more confident interventions.",
+        "points": [
+          "Real-time tumor margin visualization",
+          "Personalized tumor maps for decision-making",
+          "Class III device under Breakthrough Device review"
+        ]
+      },
+      "science": {
+        "eyebrow": "Certification",
+        "title": "cFDA registration approval secured",
+        "desc": "Commercial deployment now supports both clinical screening workflows and translational research, bridging discovery and real-world oncology practice.",
+        "points": [
+          "Clinical compliance established",
+          "Commercial deployment underway",
+          "Supports translational research"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "kicker": "Why now?",
+    "title": "A Once-in-a-Generation Inflection Point",
+    "bullets": [
+      "AI meets nano-precision: generative AI and programmable nanomaterials make this the right moment to launch a platform built natively for both.",
+      "Powering the next generation of surgical robotics: nucleus-level targeting and fluorescence guidance can become the visual layer for smarter interventions."
+    ],
+    "cardTitle": "Ready to see the platform live?",
+    "cardBody": "Talk with GTTNano about product readiness, clinical positioning, and commercial deployment.",
+    "button": "Request a Live Demo"
+  },
+  "contact": {
+    "title": "Contact GTTNano",
+    "subtitle": "World’s first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
+    "addressLabel": "Address",
+    "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapore 536465",
+    "emailLabel": "Email",
+    "email": "contact{'@'}GTTNano.com",
+    "phoneLabel": "Phone",
+    "phone": "+1 (800) 555-0199",
+    "form": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "email": "Business email",
+      "company": "Company",
+      "message": "What would you like to discuss?",
+      "submit": "Contact Sales",
+      "success": "Thanks — your message is ready to be sent to the GTTNano team."
+    },
+    "footer": {
+      "products": "Products",
+      "company": "Company",
+      "links": {
+        "about": "About Us",
+        "technology": "Technology Platform",
+        "applications": "Applications",
+        "investors": "Investors",
+        "dx": "GTTN-Dx / GTTN-SCI",
+        "navi": "GTTN-Navi",
+        "tx": "GTTN-Tx",
+        "next": "Next in Line"
+      },
+      "rights": "© 2026 GTTNano Medical Systems. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "legal": "Legal"
+    }
+  }
+}

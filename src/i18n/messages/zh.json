@@ -1,0 +1,273 @@
+{
+  "lang": {
+    "en": "English",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
+  },
+  "languageSwitcher": {
+    "shortEn": "EN",
+    "shortId": "ID",
+    "shortZh": "中文"
+  },
+  "common": {
+    "logoAlt": "GTTNano",
+    "demoCta": "申请现场演示",
+    "exploreCta": "探索平台",
+    "contactSales": "联系销售"
+  },
+  "nav": {
+    "about": "关于",
+    "technology": "技术",
+    "pipeline": "产品管线",
+    "contact": "联系我们",
+    "openNav": "打开导航",
+    "closeMenu": "关闭导航"
+  },
+  "hero": {
+    "kicker": "AI原生纳米精准肿瘤平台",
+    "title": "早期癌症检测的未来",
+    "subtitle": "全球首个AI原生纳米精准平台，旨在彻底改变我们检测和治疗癌症的方式。",
+    "primaryCta": "申请现场演示",
+    "secondaryCta": "探索平台",
+    "cardTitle": "面向未来的创新",
+    "cardBody": "模块化平台，涵盖早期筛查、手术导航和下一代治疗药物递送。",
+    "imageAlt": "GTTNano精准靶向可视化"
+  },
+  "problem": {
+    "kicker": "问题所在",
+    "title": "精准度不足导致晚期检测、毒性治疗和手术盲猜。",
+    "subtitle": "从漏诊到手术不彻底——癌症治疗需要更精准的工具。",
+    "cards": {
+      "gap": {
+        "title": "精准差距",
+        "desc": "弥合肿瘤学在诊断、手术和治疗方面的精准缺口可挽救数百万生命——这是一个价值4000亿美元、等待爆发的市场机遇"
+      },
+      "limitations": {
+        "title": "传统局限",
+        "desc": "\"传统EPR和配体靶向系统导致超过95%的治疗偏离靶点，效率低下，在健康器官中意外积聚，并具有长期毒性。\""
+      },
+      "opportunity": {
+        "title": "临床机遇",
+        "desc": "GTTNano靶向肿瘤细胞核，实现更早的信号检测、更清晰的手术边界，以及整个治疗路径中更高价值的干预。"
+      }
+    }
+  },
+  "showcase": {
+    "kicker": "工作原理",
+    "title": "纳米精准新纪元",
+    "subtitle": "与传统EPR或配体介导系统不同，GTTNano采用细胞膜通透性靶向技术，选择性穿透肿瘤细胞并在细胞核中积聚。",
+    "cards": {
+      "detection": {
+        "title": "超灵敏早期检测",
+        "desc": "更高的信号保真度，在症状明显之前检测恶性变化。"
+      },
+      "navigation": {
+        "title": "实时荧光导航",
+        "desc": "更精准的术中指导，用于确定切缘和识别转移扩散。"
+      },
+      "delivery": {
+        "title": "高效低毒递送",
+        "desc": "更多有效载荷到达恶性组织，同时将全身暴露降至最低。"
+      }
+    }
+  },
+  "hardware": {
+    "kicker": "工作原理",
+    "title": "CMPT：全新靶向范式",
+    "subtitle": "下一代靶向机制",
+    "table": {
+      "headers": {
+        "feature": "特征",
+        "cmpt": "CMPT（细胞膜通透性靶向）",
+        "epr": "EPR（增强渗透和保留）",
+        "ligand": "配体介导靶向"
+      },
+      "rows": [
+        {
+          "feature": "靶向部位",
+          "cmpt": "肿瘤细胞核",
+          "epr": "肿瘤组织",
+          "ligand": "特定肿瘤位点"
+        },
+        {
+          "feature": "靶向效率",
+          "cmpt": "> 50%",
+          "epr": "< 5%",
+          "ligand": "< 5%"
+        },
+        {
+          "feature": "靶向机制",
+          "cmpt": "肿瘤细胞膜通透性改变",
+          "epr": "肿瘤血管渗漏",
+          "ligand": "配体与受体特异性结合"
+        },
+        {
+          "feature": "体内分布",
+          "cmpt": "在正常组织中无显著积聚",
+          "epr": "在肝脏/肾脏中存留数月乃至数年",
+          "ligand": "分布于肝脏和肾脏"
+        },
+        {
+          "feature": "毒性",
+          "cmpt": "无毒",
+          "epr": "长期毒性",
+          "ligand": "长期毒性"
+        }
+      ]
+    }
+  },
+  "benefits": {
+    "kicker": "毒性极低，跨物种验证",
+    "title": "卓越的生物相容性",
+    "cards": {
+      "cellSafe": {
+        "title": "细胞安全",
+        "desc": "体外测试表明，即使在高浓度和长时间暴露下，对活细胞也无显著毒性。"
+      },
+      "systemic": {
+        "title": "无全身毒性",
+        "desc": "静脉注射后，GTTN对器官功能、生殖或血液化学无有害影响。"
+      },
+      "hepatic": {
+        "title": "无肝毒性",
+        "desc": "肝功能保持正常，在大型动物模型中证实了优异的生物相容性。"
+      },
+      "environment": {
+        "title": "无环境毒性",
+        "desc": "斑马鱼胚胎测试未发现任何发育或生态毒性。"
+      }
+    }
+  },
+  "oneHealth": {
+    "kicker": "AI是核心",
+    "title": "全球首个AI原生纳米生物合成",
+    "cards": {
+      "omics": {
+        "title": "新生物学，新组学",
+        "desc": "TransCellOmics：首个AI驱动的通透性数据库和预测模型。"
+      },
+      "generative": {
+        "title": "生成式AI遇见纳米设计",
+        "desc": "将GTTNano灵活的合成能力与AI相结合，打造高价值产品。"
+      },
+      "dimension": {
+        "title": "多组学新维度",
+        "desc": "引入关于细胞膜通透性的实时空间解析数据。"
+      }
+    }
+  },
+  "software": {
+    "kicker": "可能性管线",
+    "title": "平台技术",
+    "cards": {
+      "dx": {
+        "title": "GTTN-Dx\nGTTN-SCI",
+        "desc": "用于癌症早期筛查和研究。产品已获cFDA注册批准，现已商业化。",
+        "plain": "用于癌症早期筛查和研究。产品已获cFDA注册批准，现已",
+        "bold": "商业化上市。"
+      },
+      "navi": {
+        "title": "GTTN-Navi",
+        "desc": "已被归类为III类医疗器械，正在接受突破性器械审查，预计2026–2027年获批。",
+        "plain": "已被归类为III类医疗器械，正在接受突破性器械审查，",
+        "bold": "预计2026–2027年获批。"
+      },
+      "tx": {
+        "title": "GTTN-Tx",
+        "desc": "已获药械组合分类，现正接受创新器械审查，预计2029年获批。",
+        "plain": "已获药械组合分类，现正接受创新器械审查，预计",
+        "bold": "2029年获批。"
+      },
+      "next": {
+        "title": "下一步",
+        "desc": "淋巴肿瘤导航、CT/MRI造影剂和放射性药物载体，多个即将进入监管申报。",
+        "plain": "淋巴肿瘤导航、CT/MRI造影剂和放射性药物载体，多个即将",
+        "bold": "进入监管申报。"
+      }
+    }
+  },
+  "library": {
+    "kicker": "产品聚焦",
+    "title": "为筛查、手术和研究而构建",
+    "products": {
+      "dx": {
+        "eyebrow": "GTTN-Dx：早期癌症筛查",
+        "title": "症状出现前筛查",
+        "desc": "针对多种肿瘤类型的广谱癌症风险检测，经济实惠，操作简便，成本和复杂度最低。",
+        "points": [
+          "高灵敏度分子检测",
+          "与标准临床影像流程兼容",
+          "已通过cFDA注册，商业化可用"
+        ]
+      },
+      "navi": {
+        "eyebrow": "GTTN-Navi：赋能病理学家和外科医生",
+        "title": "映射每个病灶，引导每一步操作。",
+        "desc": "实时肿瘤边界可视化让临床医生获得更清晰的切缘、更明确的转移图谱和更自信的干预决策。",
+        "points": [
+          "实时肿瘤边界可视化",
+          "个性化肿瘤图谱辅助决策",
+          "III类器械，正接受突破性器械审查"
+        ]
+      },
+      "science": {
+        "eyebrow": "认证",
+        "title": "已获cFDA注册批准",
+        "desc": "商业化部署现已支持临床筛查流程和转化研究，连接实验室发现与真实肿瘤学实践。",
+        "points": [
+          "临床合规已建立",
+          "商业化部署进行中",
+          "支持转化研究"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "kicker": "为什么是现在？",
+    "title": "千载难逢的拐点时刻",
+    "bullets": [
+      "AI与纳米精准的融合：生成式AI和可编程纳米材料使这成为推出为二者原生构建平台的最佳时机。",
+      "赋能下一代手术机器人：核级靶向和荧光引导可成为更智能干预的视觉层。"
+    ],
+    "cardTitle": "准备好现场查看平台了吗？",
+    "cardBody": "与GTTNano探讨产品就绪情况、临床定位和商业部署。",
+    "button": "申请现场演示"
+  },
+  "contact": {
+    "title": "联系GTTNano",
+    "subtitle": "全球首个AI原生纳米精准平台，旨在彻底改变我们检测和治疗癌症的方式。",
+    "addressLabel": "地址",
+    "address": "新加坡大成路3号#04-36大成交易所 536465",
+    "emailLabel": "电子邮件",
+    "email": "contact{'@'}GTTNano.com",
+    "phoneLabel": "电话",
+    "phone": "+1 (800) 555-0199",
+    "form": {
+      "firstName": "名字",
+      "lastName": "姓氏",
+      "email": "企业邮箱",
+      "company": "公司",
+      "message": "您想讨论什么？",
+      "submit": "联系销售",
+      "success": "感谢您——您的消息已准备好发送给GTTNano团队。"
+    },
+    "footer": {
+      "products": "产品",
+      "company": "公司",
+      "links": {
+        "about": "关于我们",
+        "technology": "技术平台",
+        "applications": "应用",
+        "investors": "投资者",
+        "dx": "GTTN-Dx / GTTN-SCI",
+        "navi": "GTTN-Navi",
+        "tx": "GTTN-Tx",
+        "next": "下一步"
+      },
+      "rights": "© 2026 GTTNano医疗系统。保留所有权利。",
+      "privacy": "隐私政策",
+      "terms": "服务条款",
+      "legal": "法律"
+    }
+  }
+}

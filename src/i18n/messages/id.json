@@ -1,0 +1,273 @@
+{
+  "lang": {
+    "en": "English",
+    "id": "Bahasa Indonesia",
+    "zh": "中文"
+  },
+  "languageSwitcher": {
+    "shortEn": "EN",
+    "shortId": "ID",
+    "shortZh": "中文"
+  },
+  "common": {
+    "logoAlt": "GTTNano",
+    "demoCta": "Minta Demo Langsung",
+    "exploreCta": "Jelajahi Platform",
+    "contactSales": "Hubungi Sales"
+  },
+  "nav": {
+    "about": "Tentang",
+    "technology": "Teknologi",
+    "pipeline": "Pipeline Produk",
+    "contact": "Kontak",
+    "openNav": "Buka navigasi",
+    "closeMenu": "Tutup navigasi"
+  },
+  "hero": {
+    "kicker": "Platform onkologi nano-presisi berbasis AI",
+    "title": "Masa Depan Deteksi Kanker Dini",
+    "subtitle": "Platform nano-presisi berbasis AI pertama di dunia yang dirancang untuk merevolusi cara kita mendeteksi dan mengobati kanker.",
+    "primaryCta": "Minta Demo Langsung",
+    "secondaryCta": "Jelajahi Platform",
+    "cardTitle": "Inovasi berorientasi masa depan",
+    "cardBody": "Platform modular yang mencakup skrining dini, navigasi bedah, dan pengiriman terapeutik generasi berikutnya.",
+    "imageAlt": "Visualisasi penargetan presisi GTTNano"
+  },
+  "problem": {
+    "kicker": "Masalah",
+    "title": "Kurangnya Presisi Menyebabkan Deteksi Terlambat, Perawatan Toksik, Dan Tebak-Tebakan Bedah.",
+    "subtitle": "Dari diagnosis yang terlewat hingga operasi yang tidak tuntas—perawatan kanker membutuhkan alat yang lebih tajam.",
+    "cards": {
+      "gap": {
+        "title": "Kesenjangan Presisi",
+        "desc": "Mengatasi defisit presisi onkologi di seluruh diagnosis, operasi, dan terapi dapat menyelamatkan jutaan nyawa - dan ini adalah koreksi pasar senilai US$400 miliar yang menunggu untuk terjadi"
+      },
+      "limitations": {
+        "title": "Keterbatasan Konvensional",
+        "desc": "\"Sistem EPR dan berbasis ligan konvensional membiarkan lebih dari 95% terapi meleset dari target, dengan efisiensi rendah, akumulasi yang tidak diinginkan di organ sehat, dan toksisitas jangka panjang.\""
+      },
+      "opportunity": {
+        "title": "Peluang Klinis",
+        "desc": "GTTNano menargetkan inti sel tumor untuk sinyal lebih awal, margin lebih bersih, dan intervensi bernilai lebih tinggi di sepanjang jalur perawatan."
+      }
+    }
+  },
+  "showcase": {
+    "kicker": "Cara kerjanya",
+    "title": "Era Baru Nano-Presisi",
+    "subtitle": "Berbeda dengan sistem EPR atau ligand-mediated tradisional, GTTNano menggunakan Cell Membrane Permeability Targeting untuk secara selektif menembus sel tumor dan berakumulasi di inti.",
+    "cards": {
+      "detection": {
+        "title": "Deteksi dini ultra-sensitif",
+        "desc": "Kesetiaan sinyal lebih tinggi untuk mendeteksi perubahan ganas sebelum gejala menjadi jelas."
+      },
+      "navigation": {
+        "title": "Navigasi fluoresen real-time",
+        "desc": "Panduan intraoperatif yang lebih tajam untuk menentukan margin dan mengidentifikasi penyebaran metastasis."
+      },
+      "delivery": {
+        "title": "Pengiriman efisiensi tinggi, toksisitas rendah",
+        "desc": "Lebih banyak muatan yang mencapai jaringan ganas sambil meminimalkan paparan sistemik."
+      }
+    }
+  },
+  "hardware": {
+    "kicker": "CARA KERJANYA",
+    "title": "CMPT: Paradigma Penargetan Baru",
+    "subtitle": "Mekanisme Penargetan Generasi Berikutnya",
+    "table": {
+      "headers": {
+        "feature": "Fitur",
+        "cmpt": "CMPT (Penargetan Permeabilitas Membran Sel)",
+        "epr": "EPR (Permeabilitas dan Retensi yang Ditingkatkan)",
+        "ligand": "Penargetan Berbasis Ligan"
+      },
+      "rows": [
+        {
+          "feature": "Lokasi Penargetan",
+          "cmpt": "Inti sel tumor",
+          "epr": "Jaringan tumor",
+          "ligand": "Lokasi tumor spesifik"
+        },
+        {
+          "feature": "Efisiensi Penargetan",
+          "cmpt": "> 50%",
+          "epr": "< 5%",
+          "ligand": "< 5%"
+        },
+        {
+          "feature": "Mekanisme Penargetan",
+          "cmpt": "Perubahan permeabilitas membran sel tumor",
+          "epr": "Vaskular tumor bocor",
+          "ligand": "Pengikatan spesifik antara ligan dan reseptor"
+        },
+        {
+          "feature": "Distribusi In Vivo",
+          "cmpt": "Tidak ada akumulasi signifikan di jaringan normal",
+          "epr": "Tersisa di hati/ginjal selama beberapa bulan atau bahkan bertahun-tahun",
+          "ligand": "Terdistribusi di hati dan ginjal"
+        },
+        {
+          "feature": "Toksisitas",
+          "cmpt": "Tidak toksik",
+          "epr": "Toksisitas jangka panjang",
+          "ligand": "Toksisitas jangka panjang"
+        }
+      ]
+    }
+  },
+  "benefits": {
+    "kicker": "Toksisitas minimum, terbukti pada berbagai spesies",
+    "title": "Biokompatibilitas Luar Biasa",
+    "cards": {
+      "cellSafe": {
+        "title": "Aman bagi Sel",
+        "desc": "Uji in vitro tidak menunjukkan toksisitas signifikan pada sel hidup, bahkan pada konsentrasi tinggi dan waktu paparan lama."
+      },
+      "systemic": {
+        "title": "Tidak Ada Toksisitas Sistemik",
+        "desc": "Setelah injeksi intravena, GTTN tidak menunjukkan efek berbahaya pada fungsi organ, reproduksi, atau kimia darah."
+      },
+      "hepatic": {
+        "title": "Tidak Ada Hepatotoksisitas",
+        "desc": "Fungsi hati tetap normal, mengkonfirmasi biokompatibilitas yang sangat baik pada model hewan besar."
+      },
+      "environment": {
+        "title": "Tidak Ada Toksisitas Lingkungan",
+        "desc": "Uji embrio ikan zebra tidak mengungkapkan toksisitas perkembangan maupun ekologis."
+      }
+    }
+  },
+  "oneHealth": {
+    "kicker": "AI Di Intinya",
+    "title": "Nano-Biosintesis Berbasis AI Pertama di Dunia",
+    "cards": {
+      "omics": {
+        "title": "Biologi Baru, Omics Baru",
+        "desc": "TransCellOmics: database permeabilitas berbasis AI pertama dan model prediktif."
+      },
+      "generative": {
+        "title": "AI Generatif Bertemu Nanodesain",
+        "desc": "Menggabungkan kemampuan sintesis fleksibel GTTNano dengan AI untuk produk bernilai tinggi."
+      },
+      "dimension": {
+        "title": "Dimensi baru multi-omics",
+        "desc": "Memperkenalkan data real-time dan terselesaikan secara spasial tentang permeabilitas membran sel."
+      }
+    }
+  },
+  "software": {
+    "kicker": "Pipeline kemungkinan",
+    "title": "Teknologi Platform",
+    "cards": {
+      "dx": {
+        "title": "GTTN-Dx\nGTTN-SCI",
+        "desc": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini tersedia secara komersial.",
+        "plain": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini ",
+        "bold": "tersedia secara komersial."
+      },
+      "navi": {
+        "title": "GTTN-Navi",
+        "desc": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan persetujuan yang diharapkan pada 2026–2027.",
+        "plain": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan ",
+        "bold": "persetujuan yang diharapkan pada 2026–2027."
+      },
+      "tx": {
+        "title": "GTTN-Tx",
+        "desc": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi persetujuan pada 2029.",
+        "plain": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi ",
+        "bold": "persetujuan pada 2029."
+      },
+      "next": {
+        "title": "Berikutnya",
+        "desc": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki pengajuan regulasi segera.",
+        "plain": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki ",
+        "bold": "pengajuan regulasi segera."
+      }
+    }
+  },
+  "library": {
+    "kicker": "Sorotan produk",
+    "title": "Dibangun untuk Skrining, Bedah, dan Riset",
+    "products": {
+      "dx": {
+        "eyebrow": "GTTN-Dx: skrining kanker dini",
+        "title": "Skrining Sebelum Gejala",
+        "desc": "Solusi terjangkau dan mudah digunakan untuk deteksi risiko kanker spektrum luas di berbagai jenis tumor dengan biaya dan kompleksitas minimal.",
+        "points": [
+          "Deteksi molekuler sensitivitas tinggi",
+          "Kompatibel dengan alur kerja pencitraan klinis standar",
+          "Terdaftar cFDA dan tersedia secara komersial"
+        ]
+      },
+      "navi": {
+        "eyebrow": "GTTN-Navi: memberdayakan patologis dan ahli bedah",
+        "title": "Memetakan setiap lesi. Memandu setiap gerakan.",
+        "desc": "Visualisasi real-time batas tumor memberi klinisi margin lebih bersih, pemetaan metastasis lebih jelas, dan intervensi lebih percaya diri.",
+        "points": [
+          "Visualisasi margin tumor real-time",
+          "Peta tumor personal untuk pengambilan keputusan",
+          "Perangkat Kelas III dalam tinjauan Breakthrough Device"
+        ]
+      },
+      "science": {
+        "eyebrow": "Sertifikasi",
+        "title": "Persetujuan registrasi cFDA diperoleh",
+        "desc": "Penerapan komersial kini mendukung alur kerja skrining klinis dan riset translasional, menjembatani penemuan dan praktik onkologi dunia nyata.",
+        "points": [
+          "Kepatuhan klinis telah ditetapkan",
+          "Penerapan komersial sedang berjalan",
+          "Mendukung riset translasional"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "kicker": "Mengapa sekarang?",
+    "title": "Titik Infleksi Sekali Seumur Hidup",
+    "bullets": [
+      "AI bertemu nano-presisi: AI generatif dan nanomaterial yang dapat diprogram menjadikan ini saat yang tepat untuk meluncurkan platform yang dibangun secara native untuk keduanya.",
+      "Mengtenagai generasi berikutnya robotika bedah: penargetan tingkat inti dan panduan fluoresen dapat menjadi lapisan visual untuk intervensi yang lebih cerdas."
+    ],
+    "cardTitle": "Siap melihat platform secara langsung?",
+    "cardBody": "Bicaralah dengan GTTNano tentang kesiapan produk, positioning klinis, dan penerapan komersial.",
+    "button": "Minta Demo Langsung"
+  },
+  "contact": {
+    "title": "Hubungi GTTNano",
+    "subtitle": "Platform nano-presisi berbasis AI pertama di dunia yang dirancang untuk merevolusi cara kita mendeteksi dan mengobati kanker.",
+    "addressLabel": "Alamat",
+    "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapura 536465",
+    "emailLabel": "Email",
+    "email": "contact{'@'}GTTNano.com",
+    "phoneLabel": "Telepon",
+    "phone": "+1 (800) 555-0199",
+    "form": {
+      "firstName": "Nama depan",
+      "lastName": "Nama belakang",
+      "email": "Email bisnis",
+      "company": "Perusahaan",
+      "message": "Apa yang ingin Anda diskusikan?",
+      "submit": "Hubungi Sales",
+      "success": "Terima kasih — pesan Anda siap dikirim ke tim GTTNano."
+    },
+    "footer": {
+      "products": "Produk",
+      "company": "Perusahaan",
+      "links": {
+        "about": "Tentang Kami",
+        "technology": "Platform Teknologi",
+        "applications": "Aplikasi",
+        "investors": "Investor",
+        "dx": "GTTN-Dx / GTTN-SCI",
+        "navi": "GTTN-Navi",
+        "tx": "GTTN-Tx",
+        "next": "Berikutnya"
+      },
+      "rights": "© 2026 GTTNano Medical Systems. Hak cipta dilindungi.",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "legal": "Hukum"
+    }
+  }
+}
