@@ -23,6 +23,58 @@
     "openNav": "Buka navigasi",
     "closeMenu": "Tutup navigasi"
   },
+  "sugar": {
+    "nav": {
+      "home": "Beranda",
+      "about": "Tentang Perusahaan",
+      "products": "Produk Kami",
+      "contact": "Hubungi Kami",
+      "openNav": "Buka navigasi",
+      "closeNav": "Tutup navigasi"
+    },
+    "hero": {
+      "goToSlide": "Buka slide",
+      "productKicker": "Sorotan produk",
+      "productCta": "Lihat Produk",
+      "slides": {
+        "home": {
+          "title": "Mendefinisikan Ulang Masa Depan Gula",
+          "subtitle": "Mempercepat pengurangan gula di berbagai industri",
+          "cta": "Hubungi untuk Demo",
+          "alt": "Komposisi produk gula"
+        },
+        "isomalt": {
+          "title": "8isomalt",
+          "subtitle": "Mengubah sukrosa komoditas menjadi karbohidrat fungsional",
+          "alt": "Latar hero 8isomalt"
+        },
+        "fos": {
+          "title": "Fructooligosaccharides (FOS)",
+          "subtitle": "Mengubah sukrosa komoditas menjadi karbohidrat fungsional",
+          "alt": "Latar hero FOS"
+        },
+        "rebm": {
+          "title": "REB M",
+          "subtitle": "Mengubah Reb A yang melimpah menjadi Reb M premium melalui bioteknologi",
+          "alt": "Latar hero REB M"
+        }
+      }
+    },
+    "products": {
+      "rebm": {
+        "title": "Reb M",
+        "desc": "Pemanis alami berintensitas tinggi dengan rasa bersih seperti gula."
+      },
+      "isomalt": {
+        "title": "Isomalt",
+        "desc": "Karbohidrat fungsional yang memberi volume, stabilitas, dan respons glikemik rendah."
+      },
+      "fos": {
+        "title": "FOS",
+        "desc": "Serat prebiotik yang mendukung kesehatan usus dan strategi pengurangan gula."
+      }
+    }
+  },
   "hero": {
     "kicker": "Platform onkologi nano-presisi berbasis AI",
     "title": "Masa Depan Deteksi Kanker Dini",

@@ -23,6 +23,58 @@
     "openNav": "Open navigation",
     "closeMenu": "Close navigation"
   },
+  "sugar": {
+    "nav": {
+      "home": "Home",
+      "about": "About Company",
+      "products": "Our Products",
+      "contact": "Contact Us",
+      "openNav": "Open navigation",
+      "closeNav": "Close navigation"
+    },
+    "hero": {
+      "goToSlide": "Go to slide",
+      "productKicker": "Product spotlight",
+      "productCta": "View Product",
+      "slides": {
+        "home": {
+          "title": "Redefining the Future of Sugar",
+          "subtitle": "Accelerating sugar reduction across industries",
+          "cta": "Contact for Demo",
+          "alt": "Sugar product composition"
+        },
+        "isomalt": {
+          "title": "8isomalt",
+          "subtitle": "Transforming commodity sucrose into functional carbohydrates",
+          "alt": "8isomalt hero background"
+        },
+        "fos": {
+          "title": "Fructooligosaccharides (FOS)",
+          "subtitle": "Transforming commodity sucrose into functional carbohydrates",
+          "alt": "FOS hero background"
+        },
+        "rebm": {
+          "title": "REB M",
+          "subtitle": "Transforming abundant Reb A into premium Reb M through biotechnology",
+          "alt": "REB M hero background"
+        }
+      }
+    },
+    "products": {
+      "rebm": {
+        "title": "Reb M",
+        "desc": "A natural, high-intensity sweetener with a clean sugar-like taste."
+      },
+      "isomalt": {
+        "title": "Isomalt",
+        "desc": "A functional carbohydrate delivering bulk, stability, and low glycemic response."
+      },
+      "fos": {
+        "title": "FOS",
+        "desc": "A prebiotic fiber supporting gut health and sugar reduction strategies."
+      }
+    }
+  },
   "hero": {
     "kicker": "AI-native nano-precision oncology platform",
     "title": "The Future of Early Cancer Detection",

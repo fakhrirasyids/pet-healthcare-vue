@@ -6,9 +6,10 @@ import zh from './messages/zh.json'
 export type SupportedLocale = 'en' | 'id' | 'zh'
 
 const STORAGE_KEY = 'gttnano_locale'
+const initialLocale = getInitialLocale()
 
 export function getInitialLocale(): SupportedLocale {
-  const stored = localStorage.getItem(STORAGE_KEY) as SupportedLocale | null
+  const stored = safeStorageGet() as SupportedLocale | null
   if (stored === 'en' || stored === 'id' || stored === 'zh') return stored
 
   const nav = (navigator.language || 'en').toLowerCase()
@@ -19,8 +20,20 @@ export function getInitialLocale(): SupportedLocale {
 
 export function setLocaleRef(localeRef: { value: string }, next: SupportedLocale) {
   localeRef.value = next
-  localStorage.setItem(STORAGE_KEY, next)
+  try {
+    localStorage.setItem(STORAGE_KEY, next)
+  } catch {
+    // Storage can be unavailable in private or embedded browser contexts.
+  }
   document.documentElement.lang = next
+}
+
+function safeStorageGet() {
+  try {
+    return localStorage.getItem(STORAGE_KEY)
+  } catch {
+    return null
+  }
 }
 
 const messages = {
@@ -32,9 +45,11 @@ const messages = {
 export const i18n = createI18n({
   legacy: false,
   globalInjection: true,
-  locale: getInitialLocale(),
+  locale: initialLocale,
   fallbackLocale: 'en',
   messages,
 })
+
+document.documentElement.lang = initialLocale
 
 export default i18n

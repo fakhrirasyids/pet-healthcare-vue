@@ -23,6 +23,58 @@
     "openNav": "打开导航",
     "closeMenu": "关闭导航"
   },
+  "sugar": {
+    "nav": {
+      "home": "首页",
+      "about": "关于公司",
+      "products": "我们的产品",
+      "contact": "联系我们",
+      "openNav": "打开导航",
+      "closeNav": "关闭导航"
+    },
+    "hero": {
+      "goToSlide": "切换到幻灯片",
+      "productKicker": "产品亮点",
+      "productCta": "查看产品",
+      "slides": {
+        "home": {
+          "title": "重新定义糖的未来",
+          "subtitle": "推动各行业加速减糖",
+          "cta": "联系获取演示",
+          "alt": "糖产品组合"
+        },
+        "isomalt": {
+          "title": "8isomalt",
+          "subtitle": "将大宗蔗糖转化为功能性碳水化合物",
+          "alt": "8isomalt主视觉背景"
+        },
+        "fos": {
+          "title": "低聚果糖（FOS）",
+          "subtitle": "将大宗蔗糖转化为功能性碳水化合物",
+          "alt": "FOS主视觉背景"
+        },
+        "rebm": {
+          "title": "REB M",
+          "subtitle": "通过生物技术将丰富的Reb A转化为高端Reb M",
+          "alt": "REB M主视觉背景"
+        }
+      }
+    },
+    "products": {
+      "rebm": {
+        "title": "Reb M",
+        "desc": "天然高倍甜味剂，拥有干净、接近蔗糖的口感。"
+      },
+      "isomalt": {
+        "title": "Isomalt",
+        "desc": "功能性碳水化合物，提供体积、稳定性和低血糖反应。"
+      },
+      "fos": {
+        "title": "FOS",
+        "desc": "支持肠道健康和减糖策略的益生元纤维。"
+      }
+    }
+  },
   "hero": {
     "kicker": "AI原生纳米精准肿瘤平台",
     "title": "早期癌症检测的未来",

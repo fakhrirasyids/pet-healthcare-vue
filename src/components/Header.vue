@@ -2,9 +2,9 @@
   <header class="fixed inset-x-0 top-0 z-[110]">
     <div
       class="transition-all duration-300 ease-out"
-      :class="scrolled ? 'bg-black shadow-[0_2px_20px_rgba(0,0,0,0.4)]' : 'bg-transparent'"
+      :class="headerBg"
     >
-      <nav class="px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-20 py-4 md:py-5">
+      <nav class="px-4 md:px-8 lg:px-12 xl:px-16 py-4 md:py-5">
         <div class="max-w-[1280px] mx-auto flex items-center justify-between gap-4">
           <!-- Logo -->
           <button
@@ -13,8 +13,8 @@
           >
             <img
               :src="imgLogo"
-              alt="GTTNano"
-              class="h-9 md:h-10 w-auto"
+              alt="8iSugar"
+              class="h-10 md:h-12 w-auto"
             />
           </button>
 
@@ -22,56 +22,59 @@
           <div class="hidden lg:flex items-center gap-8 xl:gap-10">
             <button
               class="text-[15px] font-medium tracking-[0.2px] whitespace-nowrap transition-colors duration-200"
-              :class="currentPage === 'home' ? 'text-[#009689]' : 'text-white hover:text-white/80'"
+              :class="navLinkClass('home')"
               @click="emit('navigate', 'home')"
             >
-              Home
+              {{ t('sugar.nav.home') }}
             </button>
 
             <button
               class="text-[15px] font-medium tracking-[0.2px] whitespace-nowrap transition-colors duration-200"
-              :class="currentPage === 'about' ? 'text-[#009689]' : 'text-white hover:text-white/80'"
+              :class="navLinkClass('about')"
               @click="emit('navigate', 'about')"
             >
-              About Company
+              {{ t('sugar.nav.about') }}
             </button>
 
-            <!-- Product Pipeline dropdown -->
-            <div class="relative" ref="pipelineRef">
+            <!-- Our Products dropdown -->
+            <div class="relative" ref="productsRef">
               <button
                 class="flex items-center gap-1.5 text-[15px] font-medium tracking-[0.2px] whitespace-nowrap transition-colors duration-200"
-                :class="isPipelinePage ? 'text-[#009689]' : 'text-white hover:text-white/80'"
-                @click="togglePipeline"
+                :class="isProductPage ? 'text-white font-semibold' : navLinkClass('')"
+                @click="toggleProducts"
               >
-                Product Pipeline
+                {{ t('sugar.nav.products') }}
                 <svg
                   class="h-4 w-4 transition-transform duration-200"
-                  :class="pipelineOpen ? 'rotate-180' : ''"
+                  :class="productsOpen ? 'rotate-180' : ''"
                   viewBox="0 0 20 20" fill="currentColor"
                 >
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
                 </svg>
               </button>
 
-              <!-- Dropdown -->
               <Transition name="dropdown">
                 <div
-                  v-if="pipelineOpen"
-                  class="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[560px] rounded-2xl bg-white shadow-[0_20px_60px_rgba(0,0,0,0.18)] border border-black/8 overflow-hidden"
+                  v-if="productsOpen"
+                  class="absolute top-full left-1/2 -translate-x-1/2 mt-3 w-[920px] max-w-[92vw] rounded-2xl bg-white shadow-[0_24px_60px_rgba(0,0,0,0.18)] border border-black/8 overflow-hidden"
                 >
-                  <div class="p-4 grid grid-cols-2 gap-3">
+                  <div class="px-6 pt-6 pb-2">
+                    <p class="font-['Volkhov'] font-bold text-[22px] text-[#101828]">{{ t('sugar.nav.products') }}</p>
+                    <div class="mt-4 h-px bg-black/8" />
+                  </div>
+                  <div class="p-4 grid grid-cols-1 md:grid-cols-3 gap-3">
                     <button
-                      v-for="item in pipelineItems"
+                      v-for="item in productItems"
                       :key="item.page"
-                      class="flex gap-3 items-start p-3 rounded-xl hover:bg-gray-50 transition-colors text-left group"
-                      @click="goToPipeline(item.page)"
+                      class="flex items-start gap-4 p-4 rounded-xl border border-black/5 hover:border-[#1652f0]/30 hover:bg-[#f5f8ff] transition-colors text-left group"
+                      @click="goToProduct(item.page)"
                     >
-                      <div class="w-16 h-14 rounded-lg overflow-hidden flex-shrink-0 border border-black/8">
+                      <div class="w-16 h-16 rounded-full overflow-hidden flex-shrink-0 bg-[#f0f3fa]">
                         <img :src="item.image" :alt="item.title" class="w-full h-full object-cover" />
                       </div>
                       <div>
-                        <p class="font-semibold text-[13px] text-[#101828] group-hover:text-[#009689] transition-colors leading-tight">{{ item.title }}</p>
-                        <p class="text-[12px] text-[#475467] mt-1 leading-snug">{{ item.desc }}</p>
+                        <p class="font-semibold text-[15px] text-[#101828] group-hover:text-[#1652f0] transition-colors leading-tight">{{ item.title }}</p>
+                        <p class="text-[13px] text-[#475467] mt-1.5 leading-snug">{{ item.desc }}</p>
                       </div>
                     </button>
                   </div>
@@ -81,22 +84,23 @@
 
             <button
               class="text-[15px] font-medium tracking-[0.2px] whitespace-nowrap transition-colors duration-200"
-              :class="currentPage === 'contact' ? 'text-[#009689]' : 'text-white hover:text-white/80'"
+              :class="navLinkClass('contact')"
               @click="emit('navigate', 'contact')"
             >
-              Contact Us
+              {{ t('sugar.nav.contact') }}
             </button>
           </div>
 
           <!-- Right side: language + hamburger -->
           <div class="flex items-center gap-3">
             <div class="hidden md:block">
-              <LanguageDropdown theme="light" />
+              <LanguageDropdown :theme="languageTheme" />
             </div>
 
             <button
-              class="lg:hidden p-2 text-white"
-              aria-label="Open navigation"
+              class="lg:hidden p-2"
+              :class="iconColorClass"
+              :aria-label="t('sugar.nav.openNav')"
               @click="drawerOpen = true"
             >
               <MenuIcon :size="24" />
@@ -118,15 +122,14 @@
 
 <script setup lang="ts">
 import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { Menu as MenuIcon } from 'lucide-vue-next'
 import LanguageDropdown from '@/components/LanguageDropdown.vue'
 import MobileDrawerGtt from '@/components/MobileDrawerGtt.vue'
-import imgLogo from '@/assets/gtt/09100268d4e53aba4728250212eca777cd8fb25b.png'
-
-import heroSlide02 from '@/assets/gtt/c0ab7a1d4dda2bd0ad42477b59706868447935b6.png'
-import heroSlide03 from '@/assets/gtt/96f118309c104bbe9320c0a3eec34d6a987a4d08.png'
-import heroSlide04 from '@/assets/gtt/5d65a2acd9cbca36d942b6f6bd3cd48054e18b26.jpg'
-import imgNext from '@/assets/gtt/9c9ace973e69ea70ca9c9ac8c5ee50d97b45ef8b.png'
+import imgLogo from '@/assets/sugar/asset-logo.png'
+import imgRebM from '@/assets/sugar/rebm.png'
+import imgIsomalt from '@/assets/sugar/isomalt.png'
+import imgFos from '@/assets/sugar/fos.png'
 
 import type { PageName } from '@/App.vue'
 
@@ -138,48 +141,60 @@ const emit = defineEmits<{
   (e: 'navigate', page: PageName): void
 }>()
 
+const { t } = useI18n({ useScope: 'global' })
 const scrolled = ref(false)
 const drawerOpen = ref(false)
-const pipelineOpen = ref(false)
-const pipelineRef = ref<HTMLElement | null>(null)
+const productsOpen = ref(false)
+const productsRef = ref<HTMLElement | null>(null)
 
-const isPipelinePage = computed(() =>
-  ['gttn-dx', 'gttn-navi', 'gttn-tx'].includes(props.currentPage)
+const isProductPage = computed(() =>
+  ['isomalt', 'rebm', 'fos'].includes(props.currentPage)
 )
 
-const pipelineItems = [
-  {
-    page: 'gttn-dx' as PageName,
-    title: 'GTTN-Dx / GTTN-SCI',
-    desc: 'For Cancer Early Screening and Research Use. cFDA registered and commercially available.',
-    image: heroSlide02,
-  },
-  {
-    page: 'gttn-navi' as PageName,
-    title: 'GTTN-Navi',
-    desc: 'For Cancer Early Screening and Research Use. cFDA registered and commercially available.',
-    image: heroSlide03,
-  },
-  {
-    page: 'gttn-tx' as PageName,
-    title: 'GTTN-Tx',
-    desc: 'Drug-device combination under innovative device review, projected approval by 2029.',
-    image: heroSlide04,
-  },
-  {
-    page: 'home' as PageName,
-    title: 'Next in Line',
-    desc: 'Lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers.',
-    image: imgNext,
-  },
-]
+// Pages where the page top has a dark/blue hero — header should stay transparent over it
+const transparentBgPages: PageName[] = ['home', 'isomalt', 'rebm', 'fos']
 
-function togglePipeline() {
-  pipelineOpen.value = !pipelineOpen.value
+const headerBg = computed(() => {
+  if (scrolled.value) return 'bg-black shadow-[0_2px_20px_rgba(0,0,0,0.28)]'
+  if (transparentBgPages.includes(props.currentPage)) return 'bg-transparent'
+  return 'bg-black'
+})
+
+const iconColorClass = computed(() => 'text-white')
+const languageTheme = computed<'light' | 'dark'>(() => 'light')
+
+function navLinkClass(page: PageName | '') {
+  const isActive = page && props.currentPage === page
+  return isActive ? 'text-white font-semibold' : 'text-white/90 hover:text-white'
 }
 
-function goToPipeline(page: PageName) {
-  pipelineOpen.value = false
+const productItems = computed(() => [
+  {
+    page: 'rebm' as PageName,
+    title: t('sugar.products.rebm.title'),
+    desc: t('sugar.products.rebm.desc'),
+    image: imgRebM,
+  },
+  {
+    page: 'isomalt' as PageName,
+    title: t('sugar.products.isomalt.title'),
+    desc: t('sugar.products.isomalt.desc'),
+    image: imgIsomalt,
+  },
+  {
+    page: 'fos' as PageName,
+    title: t('sugar.products.fos.title'),
+    desc: t('sugar.products.fos.desc'),
+    image: imgFos,
+  },
+])
+
+function toggleProducts() {
+  productsOpen.value = !productsOpen.value
+}
+
+function goToProduct(page: PageName) {
+  productsOpen.value = false
   emit('navigate', page)
 }
 
@@ -193,8 +208,8 @@ function onScroll() {
 }
 
 function onDocClick(e: MouseEvent) {
-  if (pipelineRef.value && !pipelineRef.value.contains(e.target as Node)) {
-    pipelineOpen.value = false
+  if (productsRef.value && !productsRef.value.contains(e.target as Node)) {
+    productsOpen.value = false
   }
 }
 

@@ -10,15 +10,15 @@
 
         <div
           class="absolute left-0 top-0 h-full w-[300px] max-w-[85vw]
-                 bg-[#0a0a0a] text-white shadow-2xl
+                 bg-[#0b1a3d] text-white shadow-2xl
                  transition-transform duration-300 ease-out will-change-transform"
           :class="isActive ? 'translate-x-0' : '-translate-x-full'"
         >
           <div class="p-6 flex items-center justify-between border-b border-white/10">
             <button @click="navigate('home')">
-              <img :src="logo" alt="GTTNano" class="h-9 w-auto" />
+              <img :src="logo" alt="8iSugar" class="h-10 w-auto" />
             </button>
-            <button class="p-2 text-white" @click="close" aria-label="Close navigation">
+            <button class="p-2 text-white" @click="close" :aria-label="t('sugar.nav.closeNav')">
               <XIcon :size="22" />
             </button>
           </div>
@@ -26,58 +26,58 @@
           <div class="px-6 py-6 flex flex-col gap-1">
             <button
               class="text-left py-3 text-[15px] font-medium transition-colors"
-              :class="currentPage === 'home' ? 'text-[#009689]' : 'text-white/90 hover:text-white'"
+              :class="currentPage === 'home' ? 'text-white font-semibold' : 'text-white/80 hover:text-white'"
               @click="navigate('home')"
-            >Home</button>
+            >{{ t('sugar.nav.home') }}</button>
 
             <button
               class="text-left py-3 text-[15px] font-medium transition-colors"
-              :class="currentPage === 'about' ? 'text-[#009689]' : 'text-white/90 hover:text-white'"
+              :class="currentPage === 'about' ? 'text-white font-semibold' : 'text-white/80 hover:text-white'"
               @click="navigate('about')"
-            >About Company</button>
+            >{{ t('sugar.nav.about') }}</button>
 
             <div>
               <button
                 class="w-full text-left py-3 text-[15px] font-medium flex items-center justify-between transition-colors"
-                :class="isPipelinePage ? 'text-[#009689]' : 'text-white/90 hover:text-white'"
-                @click="pipelineOpen = !pipelineOpen"
+                :class="isProductPage ? 'text-white font-semibold' : 'text-white/80 hover:text-white'"
+                @click="productsOpen = !productsOpen"
               >
-                Product Pipeline
+                {{ t('sugar.nav.products') }}
                 <svg
                   class="h-4 w-4 transition-transform duration-200"
-                  :class="pipelineOpen ? 'rotate-180' : ''"
+                  :class="productsOpen ? 'rotate-180' : ''"
                   viewBox="0 0 20 20" fill="currentColor"
                 >
                   <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 10.94l3.71-3.71a.75.75 0 111.06 1.06l-4.24 4.25a.75.75 0 01-1.06 0L5.21 8.29a.75.75 0 01.02-1.08z" clip-rule="evenodd" />
                 </svg>
               </button>
-              <div v-if="pipelineOpen" class="ml-4 flex flex-col gap-1 mb-2">
+              <div v-if="productsOpen" class="ml-4 flex flex-col gap-1 mb-2">
                 <button
                   class="text-left py-2 text-[14px] transition-colors"
-                  :class="currentPage === 'gttn-dx' ? 'text-[#009689]' : 'text-white/70 hover:text-white'"
-                  @click="navigate('gttn-dx')"
-                >GTTN-Dx / GTTN-SCI</button>
+                  :class="currentPage === 'rebm' ? 'text-white font-semibold' : 'text-white/70 hover:text-white'"
+                  @click="navigate('rebm')"
+                >{{ t('sugar.products.rebm.title') }}</button>
                 <button
                   class="text-left py-2 text-[14px] transition-colors"
-                  :class="currentPage === 'gttn-navi' ? 'text-[#009689]' : 'text-white/70 hover:text-white'"
-                  @click="navigate('gttn-navi')"
-                >GTTN-Navi</button>
+                  :class="currentPage === 'isomalt' ? 'text-white font-semibold' : 'text-white/70 hover:text-white'"
+                  @click="navigate('isomalt')"
+                >{{ t('sugar.products.isomalt.title') }}</button>
                 <button
                   class="text-left py-2 text-[14px] transition-colors"
-                  :class="currentPage === 'gttn-tx' ? 'text-[#009689]' : 'text-white/70 hover:text-white'"
-                  @click="navigate('gttn-tx')"
-                >GTTN-Tx</button>
+                  :class="currentPage === 'fos' ? 'text-white font-semibold' : 'text-white/70 hover:text-white'"
+                  @click="navigate('fos')"
+                >{{ t('sugar.products.fos.title') }}</button>
               </div>
             </div>
 
             <button
               class="text-left py-3 text-[15px] font-medium transition-colors"
-              :class="currentPage === 'contact' ? 'text-[#009689]' : 'text-white/90 hover:text-white'"
+              :class="currentPage === 'contact' ? 'text-white font-semibold' : 'text-white/80 hover:text-white'"
               @click="navigate('contact')"
-            >Contact Us</button>
+            >{{ t('sugar.nav.contact') }}</button>
 
             <div class="mt-4 border-t border-white/10 pt-4">
-              <LanguageDropdown align="left" theme="dark" class="w-full" />
+              <LanguageDropdown align="left" theme="light" class="w-full" />
             </div>
           </div>
         </div>
@@ -88,6 +88,7 @@
 
 <script setup lang="ts">
 import { computed, ref, watch, nextTick, onMounted, onBeforeUnmount } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { X as XIcon } from 'lucide-vue-next'
 import LanguageDropdown from '@/components/LanguageDropdown.vue'
 import type { PageName } from '@/App.vue'
@@ -103,11 +104,12 @@ const emit = defineEmits<{
   (e: 'navigate', page: PageName): void
 }>()
 
+const { t } = useI18n({ useScope: 'global' })
 const isActive = ref(false)
-const pipelineOpen = ref(false)
+const productsOpen = ref(false)
 
-const isPipelinePage = computed(() =>
-  ['gttn-dx', 'gttn-navi', 'gttn-tx'].includes(props.currentPage)
+const isProductPage = computed(() =>
+  ['isomalt', 'rebm', 'fos'].includes(props.currentPage)
 )
 
 function close() {
