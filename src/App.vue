@@ -20,33 +20,25 @@
       </template>
 
       <template v-else-if="currentPage === 'about'">
-        <div class="pt-32 pb-20 min-h-screen bg-[#0b1426] flex items-center justify-center text-center px-6">
-          <div>
-            <h1 class="font-['Volkhov'] font-bold text-3xl md:text-5xl text-white mb-4">About Company</h1>
-            <p class="text-white/60 text-base md:text-lg">Coming soon.</p>
-          </div>
-        </div>
+        <AboutPage @navigate="navigateTo" />
       </template>
 
       <template v-else-if="currentPage === 'contact'">
-        <div class="pt-32 pb-20 min-h-screen bg-[#0b1426] flex items-center justify-center text-center px-6">
-          <div>
-            <h1 class="font-['Volkhov'] font-bold text-3xl md:text-5xl text-white mb-4">Contact Us</h1>
-            <p class="text-white/60 text-base md:text-lg">Reach us via the footer details below.</p>
-          </div>
-        </div>
+        <ContactPage />
       </template>
     </main>
 
-    <CtaBanner />
+    <CtaBanner v-if="showGlobalCta" />
     <FooterSection @navigate="navigateTo" />
   </div>
 </template>
 
 <script setup lang="ts">
-import { ref, watch } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import Header from '@/components/Header.vue'
 import HomePage from '@/pages/HomePage.vue'
+import AboutPage from '@/pages/AboutPage.vue'
+import ContactPage from '@/pages/ContactPage.vue'
 import IsomaltPage from '@/pages/IsomaltPage.vue'
 import RebMPage from '@/pages/RebMPage.vue'
 import FosPage from '@/pages/FosPage.vue'
@@ -55,14 +47,72 @@ import FooterSection from '@/sections/FooterSection.vue'
 
 export type PageName = 'home' | 'about' | 'isomalt' | 'rebm' | 'fos' | 'contact'
 
-const currentPage = ref<PageName>('home')
+const pageSlugs: Record<PageName, string> = {
+  home: 'home',
+  about: 'about',
+  isomalt: 'isomalt',
+  rebm: 'rebm',
+  fos: 'fos',
+  contact: 'contact',
+}
+
+const slugToPage: Record<string, PageName> = {
+  home: 'home',
+  about: 'about',
+  'about-company': 'about',
+  isomalt: 'isomalt',
+  rebm: 'rebm',
+  'reb-m': 'rebm',
+  fos: 'fos',
+  contact: 'contact',
+  'contact-us': 'contact',
+}
+
+const currentPage = ref<PageName>(pageFromLocation())
+const showGlobalCta = computed(() => !['about', 'contact'].includes(currentPage.value))
 
 function navigateTo(page: PageName) {
   currentPage.value = page
+  syncUrl(page)
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
 watch(currentPage, () => {
   window.scrollTo({ top: 0 })
+})
+
+function pageFromLocation(): PageName {
+  if (typeof window === 'undefined') return 'home'
+
+  const hashSlug = window.location.hash.replace(/^#\/?/, '').toLowerCase()
+  if (hashSlug && slugToPage[hashSlug]) return slugToPage[hashSlug]
+
+  const pathSlug = window.location.pathname.split('/').filter(Boolean).pop()?.toLowerCase()
+  if (pathSlug && slugToPage[pathSlug]) return slugToPage[pathSlug]
+
+  return 'home'
+}
+
+function syncUrl(page: PageName) {
+  if (typeof window === 'undefined') return
+
+  const nextHash = `#${pageSlugs[page]}`
+  if (window.location.hash === nextHash) return
+
+  window.history.pushState({ page }, '', nextHash)
+}
+
+function handleHistoryChange() {
+  currentPage.value = pageFromLocation()
+}
+
+onMounted(() => {
+  window.addEventListener('popstate', handleHistoryChange)
+  window.addEventListener('hashchange', handleHistoryChange)
+})
+
+onBeforeUnmount(() => {
+  window.removeEventListener('popstate', handleHistoryChange)
+  window.removeEventListener('hashchange', handleHistoryChange)
 })
 </script>

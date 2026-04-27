@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-[#0a1226] text-white">
+  <footer class="bg-[#001f22] text-white">
     <div class="max-w-[1280px] mx-auto px-6 md:px-10 lg:px-12 py-14 md:py-16">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8">
         <!-- Logo + tagline -->
         <div class="lg:col-span-4">
           <button @click="emit('navigate', 'home')" class="inline-flex items-center">
-            <img :src="imgLogo" alt="8iSugar" class="h-7 w-auto" />
+            <img :src="imgLogo" alt="8iSugar" class="h-10 w-auto" />
           </button>
           <p class="mt-5 text-[13px] leading-[1.65] text-white/65 max-w-[280px]">
             A Global Shift Toward Healthier Sugar Alternatives. We introduce a biocatalytic isomaltulose production technology that delivers:
@@ -38,7 +38,7 @@
           <h4 class="font-semibold text-[14px] mb-4">Contact</h4>
           <ul class="flex flex-col gap-3 text-[13px] text-white/70">
             <li>3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapore 536465</li>
-            <li><a href="mailto:contact@GTTNano.com" class="hover:text-white transition-colors">contact@GTTNano.com</a></li>
+            <li><a href="mailto:contact@8isugar.com" class="hover:text-white transition-colors">contact@8isugar.com</a></li>
             <li>+1 (800) 555-0199</li>
           </ul>
 

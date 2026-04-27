@@ -152,7 +152,7 @@ const isProductPage = computed(() =>
 )
 
 // Pages where the page top has a dark/blue hero — header should stay transparent over it
-const transparentBgPages: PageName[] = ['home', 'isomalt', 'rebm', 'fos']
+const transparentBgPages: PageName[] = ['home', 'about', 'isomalt', 'rebm', 'fos', 'contact']
 
 const headerBg = computed(() => {
   if (scrolled.value) return 'bg-black shadow-[0_2px_20px_rgba(0,0,0,0.28)]'

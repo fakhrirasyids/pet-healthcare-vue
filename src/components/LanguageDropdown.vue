@@ -98,9 +98,9 @@ const menuClass = computed(() => {
 const current = computed(() => (locale.value || 'en') as SupportedLocale)
 
 const currentLabel = computed(() => {
-  if (current.value === 'id') return t('languageSwitcher.shortId') || 'ID'
-  if (current.value === 'zh') return t('languageSwitcher.shortZh') || '中文'
-  return t('languageSwitcher.shortEn') || 'EN'
+  if (current.value === 'id') return t('lang.id') || 'Bahasa Indonesia'
+  if (current.value === 'zh') return t('lang.zh') || '中文'
+  return t('lang.en') || 'English'
 })
 
 const buttonThemeClass = computed(() =>
