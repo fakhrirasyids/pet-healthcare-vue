@@ -274,7 +274,7 @@
           "name": "Nama Lengkap *",
           "namePlaceholder": "John Smith",
           "email": "Alamat Email *",
-          "emailPlaceholder": "john@company.com",
+          "emailPlaceholder": "john{'@'}company.com",
           "company": "Perusahaan",
           "companyPlaceholder": "Nama Perusahaan Anda",
           "phone": "Nomor Telepon",

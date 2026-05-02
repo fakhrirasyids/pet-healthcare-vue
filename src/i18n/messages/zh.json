@@ -274,7 +274,7 @@
           "name": "全名 *",
           "namePlaceholder": "张三",
           "email": "电子邮箱 *",
-          "emailPlaceholder": "zhang@company.com",
+          "emailPlaceholder": "zhang{'@'}company.com",
           "company": "公司",
           "companyPlaceholder": "您的公司名称",
           "phone": "电话号码",

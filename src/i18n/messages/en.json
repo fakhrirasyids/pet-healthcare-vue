@@ -274,7 +274,7 @@
           "name": "Full Name *",
           "namePlaceholder": "John Smith",
           "email": "Email Address *",
-          "emailPlaceholder": "john@company.com",
+          "emailPlaceholder": "john{'@'}company.com",
           "company": "Company",
           "companyPlaceholder": "Your Company Name",
           "phone": "Phone Number",
