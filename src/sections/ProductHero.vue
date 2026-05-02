@@ -24,7 +24,7 @@
             class="inline-flex items-center justify-center rounded-md bg-white px-6 py-3 text-[14px] md:text-[15px] font-semibold text-[#0a1226] shadow-[0_8px_24px_rgba(0,0,0,0.18)] transition-transform duration-300 hover:-translate-y-0.5"
             @click="emit('contact')"
           >
-            Contact for Demo
+            {{ t('sugar.productHero.cta') }}
           </button>
         </div>
       </div>
@@ -33,6 +33,8 @@
 </template>
 
 <script setup lang="ts">
+import { useI18n } from 'vue-i18n'
+
 defineProps<{
   title: string
   subtitle?: string
@@ -42,4 +44,6 @@ defineProps<{
 const emit = defineEmits<{
   (e: 'contact'): void
 }>()
+
+const { t } = useI18n({ useScope: 'global' })
 </script>

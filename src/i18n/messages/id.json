@@ -73,6 +73,428 @@
         "title": "FOS",
         "desc": "Serat prebiotik yang mendukung kesehatan usus dan strategi pengurangan gula."
       }
+    },
+    "footer": {
+      "tagline": "Pergeseran Global Menuju Alternatif Gula yang Lebih Sehat. Kami memperkenalkan teknologi produksi isomaltulose biokatalitik yang menghasilkan:",
+      "productsHeading": "Produk",
+      "companyHeading": "Perusahaan",
+      "contactHeading": "Kontak",
+      "links": {
+        "isomalt": "Isomalt",
+        "rebm": "RebM",
+        "fos": "Fructooligosaccharides",
+        "about": "Tentang Kami",
+        "technology": "Platform Teknologi",
+        "applications": "Aplikasi",
+        "investors": "Investor"
+      },
+      "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapura 536465",
+      "email": "contact@8isugar.com",
+      "phone": "+1 (800) 555-0199",
+      "contactSales": "Hubungi Sales",
+      "rights": "© 2026 8isugar company. Hak cipta dilindungi.",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "legal": "Hukum"
+    },
+    "cta": {
+      "title": "Mendefinisikan Ulang Masa Depan Gula",
+      "subtitle": "Inefisiensi operasional dan kendala proses membatasi efisiensi biaya dan output skala besar.",
+      "button": "Minta Demo Langsung"
+    },
+    "problem": {
+      "kicker": "Masalah",
+      "title": "Pergeseran Global Menuju Alternatif Gula yang Lebih Sehat",
+      "subtitle": "Bahan fungsional menjadi kategori premium berpertumbuhan tinggi.",
+      "cards": {
+        "regulatory": {
+          "title": "Tekanan Regulasi",
+          "desc": "Pemerintah memberlakukan pajak gula dan persyaratan pelabelan yang lebih ketat, memaksa reformulasi di seluruh industri."
+        },
+        "consumer": {
+          "title": "Pergeseran Konsumen",
+          "desc": "Permintaan bergerak cepat menuju produk rendah gula, clean-label, dan nutrisi fungsional."
+        },
+        "premium": {
+          "title": "Pertumbuhan Premium",
+          "desc": "Pemanis fungsional dan bahan kesehatan usus melampaui pertumbuhan pasar gula tradisional."
+        }
+      }
+    },
+    "tech": {
+      "title": "Teknologi Produksi Biokatalitik Efisiensi Tinggi",
+      "subtitle": "Kami memperkenalkan teknologi produksi isomaltulose biokatalitik. Beroperasi dalam kondisi ringan, secara signifikan mengurangi penggunaan energi dibandingkan proses suhu tinggi konvensional.",
+      "features": {
+        "innovation": "Inovasi Proses — Penghematan Biaya 30%",
+        "purity": "Output Kemurnian Tinggi",
+        "green": "Proses Hijau & Sederhana"
+      }
+    },
+    "pipeline": {
+      "kicker": "Pipeline Produk",
+      "title": "Tiga Platform Produk yang Saling Melengkapi",
+      "items": {
+        "rebm": {
+          "title": "Reb M",
+          "desc": "Pemanis alami berintensitas tinggi dengan rasa bersih seperti gula."
+        },
+        "isomalt": {
+          "title": "Isomalt",
+          "desc": "Karbohidrat fungsional yang memberi volume, stabilitas, dan respons glikemik rendah."
+        },
+        "fos": {
+          "title": "Fructooligosaccharides",
+          "desc": "Serat prebiotik yang mendukung kesehatan usus dan strategi pengurangan gula."
+        },
+        "next": {
+          "title": "Berikutnya",
+          "desc": "Telah mendapatkan klasifikasi sebagai pemanis baru"
+        }
+      }
+    },
+    "costSaving": {
+      "kicker": "Keunggulan Inti",
+      "title": "Rincian Penghematan Biaya",
+      "traditional": {
+        "heading": "Proses Tradisional",
+        "bullets": [
+          "Kondisi ringan: 28–30°C, tekanan atmosfer",
+          "Waktu reaksi: 12 jam",
+          "Tanpa suhu/tekanan tinggi"
+        ]
+      },
+      "new": {
+        "heading": "Proses Baru",
+        "bullets": [
+          "Produk sampingan berkurang: 4,5% → 1%",
+          "Siklus penggunaan ulang berganda",
+          "Total penghematan biaya: ~30%"
+        ]
+      },
+      "tableCaption": "Inovasi Proses — Pengurangan Biaya 30%",
+      "table": {
+        "headers": {
+          "item": "Item",
+          "share": "Proporsi",
+          "saving": "Penghematan",
+          "total": "Dampak Total"
+        },
+        "rows": [
+          { "item": "Penguapan", "share": "15%", "saving": "70%", "total": "10,5%" },
+          { "item": "Limbah", "share": "10%", "saving": "80%", "total": "8%" },
+          { "item": "Peralatan", "share": "10%", "saving": "40%", "total": "4%" },
+          { "item": "Keuntungan hasil", "share": "10%", "saving": "40%", "total": "3%" },
+          { "item": "Tenaga kerja", "share": "10%", "saving": "20%", "total": "1,6%" }
+        ]
+      }
+    },
+    "greenProcess": {
+      "title": "Proses Hijau & Sederhana",
+      "cards": {
+        "energy": {
+          "title": "Konsumsi energi lebih rendah",
+          "desc": "Beroperasi dalam kondisi ringan, secara signifikan mengurangi penggunaan energi dibandingkan proses suhu tinggi konvensional."
+        },
+        "simplified": {
+          "title": "Produksi yang disederhanakan",
+          "desc": "Desain proses yang efisien meminimalkan langkah, membuat produksi lebih mudah dioperasikan dan diskalakan."
+        },
+        "eco": {
+          "title": "Ramah lingkungan",
+          "desc": "Pendekatan biokatalitik hijau mengurangi emisi dan dampak lingkungan sepanjang siklus produksi."
+        }
+      }
+    },
+    "market": {
+      "kicker": "Aplikasi Pasar",
+      "title": "Saluran Pemasaran."
+    },
+    "about": {
+      "hero": {
+        "title": "Tentang Perusahaan Kami",
+        "subtitle": "Memimpin transformasi dalam alternatif gula melalui teknologi biokatalitik inovatif"
+      },
+      "mission": {
+        "badge": "Misi Kami",
+        "title": "Mendefinisikan Ulang Produksi Gula untuk Masa Depan yang Lebih Sehat",
+        "p1": "Kami berkomitmen untuk merevolusi industri gula melalui teknologi biokatalitik terobosan. Misi kami adalah menyediakan alternatif gula yang berkelanjutan, hemat biaya, dan lebih sehat yang memenuhi permintaan global yang terus meningkat untuk nutrisi fungsional.",
+        "p2": "Dengan menggabungkan ilmu pengetahuan mutakhir dengan tanggung jawab lingkungan, kami mempercepat pengurangan gula di berbagai industri sambil mempertahankan rasa dan fungsionalitas yang diharapkan konsumen.",
+        "imgAlt": "Gula yang diayak ke dalam mangkuk"
+      },
+      "values": {
+        "kicker": "Nilai Kami",
+        "title": "Yang Mendorong Kami Maju",
+        "items": [
+          { "number": "1", "title": "Inovasi", "desc": "Memelopori proses biokatalitik yang mengubah cara produksi gula fungsional secara global." },
+          { "number": "2", "title": "Keberlanjutan", "desc": "Pendekatan kimia hijau yang mengurangi konsumsi energi dan dampak lingkungan." },
+          { "number": "3", "title": "Kualitas", "desc": "Output kemurnian tinggi dengan proses produksi yang disederhanakan untuk keunggulan yang konsisten." },
+          { "number": "4", "title": "Kemitraan", "desc": "Berkolaborasi dengan pemimpin industri untuk mempercepat adopsi alternatif yang lebih sehat." }
+        ]
+      },
+      "leadership": {
+        "kicker": "Kepemimpinan",
+        "title": "Tim Ahli yang Mendorong Inovasi",
+        "subtitle": "Tim multidisiplin kami menggabungkan pengalaman puluhan tahun dalam bioteknologi, teknik kimia, dan manufaktur berkelanjutan.",
+        "cta": {
+          "title": "Bergabunglah dalam Perjalanan Kami",
+          "subtitle": "Kami selalu mencari individu berbakat yang bersemangat untuk mengubah industri makanan",
+          "button": "Hubungi Kami"
+        }
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Hubungi Kami",
+        "subtitle": "Siap menjelajahi bagaimana alternatif gula inovatif kami dapat mengubah produk Anda? Mari mulai percakapan."
+      },
+      "cards": {
+        "visit": {
+          "title": "Kunjungi Kami",
+          "details": "3 TAI SENG AVENUE, #04-36\nTAI SENG EXCHANGE\nSingapura 536465"
+        },
+        "email": {
+          "title": "Email Kami",
+          "details": "contact@8isugar.com\nsales@8isugar.com"
+        },
+        "call": {
+          "title": "Hubungi Kami",
+          "details": "+1 (800) 555-0199\n+65 6123 4567"
+        }
+      },
+      "form": {
+        "badge": "Minta Demo",
+        "title": "Mari Diskusikan Tujuan Pengurangan Gula Anda",
+        "subtitle": "Baik Anda ingin memformulasi ulang produk yang ada atau mengembangkan solusi nutrisi fungsional baru, tim kami siap membantu Anda sukses.",
+        "steps": [
+          { "number": "1", "title": "Ceritakan kebutuhan Anda", "desc": "Bagikan tantangan dan tujuan Anda saat ini" },
+          { "number": "2", "title": "Jadwalkan konsultasi", "desc": "Temui tim teknis kami" },
+          { "number": "3", "title": "Dapatkan solusi khusus", "desc": "Terima rekomendasi yang disesuaikan" }
+        ],
+        "fields": {
+          "name": "Nama Lengkap *",
+          "namePlaceholder": "John Smith",
+          "email": "Alamat Email *",
+          "emailPlaceholder": "john@company.com",
+          "company": "Perusahaan",
+          "companyPlaceholder": "Nama Perusahaan Anda",
+          "phone": "Nomor Telepon",
+          "phonePlaceholder": "+1 (555) 000-0000",
+          "message": "Bagaimana kami bisa membantu? *",
+          "messagePlaceholder": "Ceritakan proyek dan tujuan Anda...",
+          "submit": "Kirim Pesan"
+        }
+      }
+    },
+    "isomalt": {
+      "hero": {
+        "title": "8isomalt",
+        "subtitle": "Mengubah sukrosa komoditas menjadi karbohidrat fungsional"
+      },
+      "overview": {
+        "kicker": "Apa itu 8isomalt?",
+        "title": "Melampaui Pemanis Tradisional",
+        "desc": "Isomalt secara unik menggabungkan keamanan metabolik, stabilitas industri, dan penerimaan konsumen clean-label. Serat prebiotik rantai pendek alami dengan manfaat multifungsi",
+        "imgAlt": "Isomalt"
+      },
+      "advantages": {
+        "health": {
+          "title": "Keunggulan Kesehatan",
+          "bullets": ["Respons insulin minimal", "Glukosa darah stabil", "Pelepasan energi ramah diabetes"]
+        },
+        "industrial": {
+          "title": "Keunggulan Industri",
+          "bullets": ["Higroskopisitas rendah", "Stabilitas panas sangat baik", "Kristalisasi stabil"]
+        },
+        "oral": {
+          "title": "Keunggulan Kesehatan Mulut",
+          "bullets": ["Tidak difermentasi bakteri mulut", "Mencegah pembentukan asam", "Ramah gigi"]
+        },
+        "label": {
+          "title": "Keunggulan Label Bersih",
+          "bullets": ["Berasal dari sukrosa", "Posisi bahan alami", "Penerimaan konsumen kuat"]
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Keunggulan Inti",
+        "title": "Platform Enzim Imobilisasi Efisiensi Tinggi",
+        "imgAlt": "Platform enzim",
+        "tableCaption": "Keunggulan performa atas proses konvensional.",
+        "points": {
+          "margin": {
+            "title": "Margin Kotor Tinggi",
+            "desc": "Gula komoditas ditingkatkan menjadi bahan fungsional bernilai tinggi—misalnya, gula $1/kg dikonversi menjadi isomalt dijual seharga $8/kg dengan biaya pemrosesan $3/kg menghasilkan keuntungan $4/kg (~50% margin kotor)."
+          },
+          "production": {
+            "title": "Produksi Efisien",
+            "desc": "Sistem enzim dan proses kristalisasi yang dioptimalkan memungkinkan hasil produk tinggi dan efisiensi proses."
+          },
+          "scale": {
+            "title": "Manufaktur Skalabel",
+            "desc": "Proses industri seperti konsentrasi, kristalisasi, sentrifugasi, dan pengeringan mendukung kapasitas produksi skala besar."
+          }
+        },
+        "table": {
+          "headers": {
+            "kpi": "KPI",
+            "industry": "Standar Industri",
+            "process": "Proses 8isomalt"
+          },
+          "rows": [
+            { "kpi": "Tingkat Konversi", "industry": "~65%", "process": "94–98%" },
+            { "kpi": "Penggunaan Ulang Enzim", "industry": "Sekali pakai", "process": "Multi-siklus" },
+            { "kpi": "Stabilitas Operasional", "industry": "Rendah", "process": "Multi-jam berkelanjutan" },
+            { "kpi": "Kontribusi Biaya Enzim", "industry": "Tinggi", "process": "Sangat Berkurang" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Integrasi Minuman", "desc": "Banyak digunakan dalam minuman berkarbonasi dan siap minum." },
+          { "title": "Penggunaan Produk Makanan", "desc": "Diterapkan pada produk susu, camilan, dan nutrisi fungsional" },
+          { "title": "Formulasi Farmasi", "desc": "Digunakan dalam sirup bebas gula dan produk obat." }
+        ]
+      }
+    },
+    "fos": {
+      "hero": {
+        "title": "Fructooligosaccharides (FOS)",
+        "subtitle": "Mengubah sukrosa komoditas menjadi karbohidrat fungsional"
+      },
+      "overview": {
+        "kicker": "Apa itu Fructooligosaccharides (FOS)?",
+        "title": "Solusi Prebiotik yang Presisi",
+        "desc": "Dirancang untuk secara selektif memberi nutrisi pada bakteri usus yang bermanfaat. Serat prebiotik rantai pendek alami dengan manfaat multifungsi",
+        "imgAlt": "FOS"
+      },
+      "features": {
+        "microbiome": {
+          "title": "Aktivasi Mikrobiom yang Ditargetkan",
+          "desc": "FOS secara selektif merangsang bakteri menguntungkan seperti Bifidobacteria, meningkatkan keseimbangan ekosistem usus. Ini menghasilkan manfaat pencernaan dan imunitas yang terukur."
+        },
+        "fiber": {
+          "title": "Serat Fungsional Cepat Bekerja",
+          "desc": "Karena struktur rantai pendeknya, FOS difermentasi dengan cepat di usus besar. Ini memungkinkan respons fisiologis lebih cepat dibandingkan serat rantai panjang."
+        },
+        "integration": {
+          "title": "Integrasi Produk yang Mulus",
+          "desc": "Kelarutan tinggi dan manisnya yang ringan memudahkan penggabungan ke dalam minuman, produk susu, dan suplemen tanpa mengorbankan rasa."
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Keunggulan Inti",
+        "title": "Ekonomi Unit Kuat dengan Potensi Skalabel",
+        "imgAlt": "Sistem produksi",
+        "tableCaption": "FOS vs Pesaing Prebiotik Utama",
+        "points": {
+          "model": {
+            "title": "Model Produksi Efisien",
+            "desc": "Konversi enzimatik dari sukrosa memungkinkan manufaktur skalabel dan konsisten. Ini mengurangi volatilitas rantai pasokan."
+          },
+          "density": {
+            "title": "Kepadatan Nilai Tinggi",
+            "desc": "Tingkat inklusi kecil memberikan manfaat fungsional yang signifikan. Ini memungkinkan penetapan harga premium tanpa banyak memengaruhi biaya produk."
+          },
+          "margin": {
+            "title": "Pengungkit Ekspansi Margin",
+            "desc": "FOS meningkatkan positioning produk (kesehatan usus, rendah gula), memungkinkan harga ritel lebih tinggi. Merek dapat meningkatkan margin sambil mempertahankan daya saing."
+          }
+        },
+        "table": {
+          "headers": {
+            "feature": "Fitur",
+            "gos": "GOS",
+            "fos": "FOS"
+          },
+          "rows": [
+            { "feature": "Panjang Rantai", "gos": "Rantai pendek", "fos": "Rantai pendek" },
+            { "feature": "Kecepatan Fermentasi", "gos": "Cepat", "fos": "Sedang" },
+            { "feature": "Toleransi Pencernaan", "gos": "Rendah", "fos": "Sedang" },
+            { "feature": "Efisiensi Biaya", "gos": "Rendah (mahal)", "fos": "Tinggi" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Minuman Fungsional", "desc": "Termasuk minuman kesehatan usus siap minum, minuman serat, dan formulasi rendah gula." },
+          { "title": "Susu & Alternatif Susu", "desc": "Yogurt, minuman probiotik, dan susu berbasis nabati semakin banyak menggabungkan prebiotik seperti FOS." },
+          { "title": "Suplemen Diet", "desc": "Kapsul, bubuk, dan sachet yang menargetkan kesehatan usus dan imunitas" }
+        ]
+      }
+    },
+    "rebm": {
+      "hero": {
+        "title": "REB M",
+        "subtitle": "Mengubah Reb A yang melimpah menjadi Reb M premium melalui bioteknologi"
+      },
+      "overview": {
+        "kicker": "Apa itu Reb M?",
+        "title": "Konversi Enzimatik Membuka Produksi Skalabel",
+        "desc": "Mengubah Reb A yang melimpah menjadi Reb M premium melalui bioteknologi",
+        "imgAlt": "Reb M"
+      },
+      "features": {
+        "conversion": {
+          "title": "Strategi Konversi Reb A",
+          "desc": "Reb A yang melimpah dan berbiaya rendah dikonversi secara enzimatik menjadi Reb M bernilai tinggi melalui glikosilasi yang ditargetkan."
+        },
+        "controlled": {
+          "title": "Sistem Produksi Terkontrol",
+          "desc": "Proses biokatalitik memungkinkan kontrol presisi atas kondisi reaksi, memastikan kualitas produk yang konsisten."
+        },
+        "scalable": {
+          "title": "Pendekatan Bioteknologi Skalabel",
+          "desc": "Produksi dilepaskan dari keterbatasan pertanian, memungkinkan manufaktur skala industri."
+        },
+        "cost": {
+          "title": "Output Hemat Biaya",
+          "desc": "Efisiensi konversi tinggi dan input yang dioptimalkan secara signifikan mengurangi biaya per unit Reb M."
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Keunggulan Inti",
+        "title": "Mengapa Reb M Penting & Hemat Biaya",
+        "imgAlt": "Sistem produksi",
+        "tableCaption": "Komponen stevia tradisional seperti Reb A memiliki rasa pahit.",
+        "points": {
+          "raw": {
+            "title": "Bahan Baku Berbiaya Rendah",
+            "desc": "Reb A jauh lebih murah dan lebih berlimpah dibandingkan Reb M. Ini menjadikannya substrat ideal untuk konversi skala besar."
+          },
+          "yield": {
+            "title": "Hasil Konversi Efisien",
+            "desc": "Tingkat konversi tinggi (>80–97%) memaksimalkan output produksi. Ini memungkinkan lebih banyak Reb M diproduksi dari volume input yang sama."
+          },
+          "processing": {
+            "title": "Biaya Pemrosesan Lebih Rendah",
+            "desc": "Pemurnian yang disederhanakan mengurangi pengeluaran operasional hilir. Lebih sedikit pengotor menghasilkan pemisahan yang kurang kompleks dan penggunaan energi lebih rendah."
+          }
+        },
+        "table": {
+          "headers": {
+            "item": "Item",
+            "share": "Proporsi",
+            "saving": "Penghematan",
+            "total": "Dampak Total"
+          },
+          "rows": [
+            { "item": "Penguapan", "share": "15%", "saving": "70%", "total": "10,5%" },
+            { "item": "Limbah", "share": "10%", "saving": "80%", "total": "8%" },
+            { "item": "Peralatan", "share": "10%", "saving": "40%", "total": "4%" },
+            { "item": "Keuntungan hasil", "share": "10%", "saving": "40%", "total": "3%" },
+            { "item": "Tenaga kerja", "share": "10%", "saving": "20%", "total": "1,6%" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Integrasi Minuman", "desc": "Banyak digunakan dalam minuman berkarbonasi dan siap minum." },
+          { "title": "Penggunaan Produk Makanan", "desc": "Diterapkan pada produk susu, camilan, dan nutrisi fungsional" },
+          { "title": "Formulasi Farmasi", "desc": "Digunakan dalam sirup bebas gula dan produk obat." }
+        ]
+      }
+    },
+    "productHero": {
+      "cta": "Hubungi untuk Demo"
     }
   },
   "hero": {
@@ -90,18 +512,9 @@
     "title": "Kurangnya Presisi Menyebabkan Deteksi Terlambat, Perawatan Toksik, Dan Tebak-Tebakan Bedah.",
     "subtitle": "Dari diagnosis yang terlewat hingga operasi yang tidak tuntas—perawatan kanker membutuhkan alat yang lebih tajam.",
     "cards": {
-      "gap": {
-        "title": "Kesenjangan Presisi",
-        "desc": "Mengatasi defisit presisi onkologi di seluruh diagnosis, operasi, dan terapi dapat menyelamatkan jutaan nyawa - dan ini adalah koreksi pasar senilai US$400 miliar yang menunggu untuk terjadi"
-      },
-      "limitations": {
-        "title": "Keterbatasan Konvensional",
-        "desc": "\"Sistem EPR dan berbasis ligan konvensional membiarkan lebih dari 95% terapi meleset dari target, dengan efisiensi rendah, akumulasi yang tidak diinginkan di organ sehat, dan toksisitas jangka panjang.\""
-      },
-      "opportunity": {
-        "title": "Peluang Klinis",
-        "desc": "GTTNano menargetkan inti sel tumor untuk sinyal lebih awal, margin lebih bersih, dan intervensi bernilai lebih tinggi di sepanjang jalur perawatan."
-      }
+      "gap": { "title": "Kesenjangan Presisi", "desc": "Mengatasi defisit presisi onkologi di seluruh diagnosis, operasi, dan terapi dapat menyelamatkan jutaan nyawa - dan ini adalah koreksi pasar senilai US$400 miliar yang menunggu untuk terjadi" },
+      "limitations": { "title": "Keterbatasan Konvensional", "desc": "\"Sistem EPR dan berbasis ligan konvensional membiarkan lebih dari 95% terapi meleset dari target, dengan efisiensi rendah, akumulasi yang tidak diinginkan di organ sehat, dan toksisitas jangka panjang.\"" },
+      "opportunity": { "title": "Peluang Klinis", "desc": "GTTNano menargetkan inti sel tumor untuk sinyal lebih awal, margin lebih bersih, dan intervensi bernilai lebih tinggi di sepanjang jalur perawatan." }
     }
   },
   "showcase": {
@@ -109,18 +522,9 @@
     "title": "Era Baru Nano-Presisi",
     "subtitle": "Berbeda dengan sistem EPR atau ligand-mediated tradisional, GTTNano menggunakan Cell Membrane Permeability Targeting untuk secara selektif menembus sel tumor dan berakumulasi di inti.",
     "cards": {
-      "detection": {
-        "title": "Deteksi dini ultra-sensitif",
-        "desc": "Kesetiaan sinyal lebih tinggi untuk mendeteksi perubahan ganas sebelum gejala menjadi jelas."
-      },
-      "navigation": {
-        "title": "Navigasi fluoresen real-time",
-        "desc": "Panduan intraoperatif yang lebih tajam untuk menentukan margin dan mengidentifikasi penyebaran metastasis."
-      },
-      "delivery": {
-        "title": "Pengiriman efisiensi tinggi, toksisitas rendah",
-        "desc": "Lebih banyak muatan yang mencapai jaringan ganas sambil meminimalkan paparan sistemik."
-      }
+      "detection": { "title": "Deteksi dini ultra-sensitif", "desc": "Kesetiaan sinyal lebih tinggi untuk mendeteksi perubahan ganas sebelum gejala menjadi jelas." },
+      "navigation": { "title": "Navigasi fluoresen real-time", "desc": "Panduan intraoperatif yang lebih tajam untuk menentukan margin dan mengidentifikasi penyebaran metastasis." },
+      "delivery": { "title": "Pengiriman efisiensi tinggi, toksisitas rendah", "desc": "Lebih banyak muatan yang mencapai jaringan ganas sambil meminimalkan paparan sistemik." }
     }
   },
   "hardware": {
@@ -128,43 +532,13 @@
     "title": "CMPT: Paradigma Penargetan Baru",
     "subtitle": "Mekanisme Penargetan Generasi Berikutnya",
     "table": {
-      "headers": {
-        "feature": "Fitur",
-        "cmpt": "CMPT (Penargetan Permeabilitas Membran Sel)",
-        "epr": "EPR (Permeabilitas dan Retensi yang Ditingkatkan)",
-        "ligand": "Penargetan Berbasis Ligan"
-      },
+      "headers": { "feature": "Fitur", "cmpt": "CMPT (Penargetan Permeabilitas Membran Sel)", "epr": "EPR (Permeabilitas dan Retensi yang Ditingkatkan)", "ligand": "Penargetan Berbasis Ligan" },
       "rows": [
-        {
-          "feature": "Lokasi Penargetan",
-          "cmpt": "Inti sel tumor",
-          "epr": "Jaringan tumor",
-          "ligand": "Lokasi tumor spesifik"
-        },
-        {
-          "feature": "Efisiensi Penargetan",
-          "cmpt": "> 50%",
-          "epr": "< 5%",
-          "ligand": "< 5%"
-        },
-        {
-          "feature": "Mekanisme Penargetan",
-          "cmpt": "Perubahan permeabilitas membran sel tumor",
-          "epr": "Vaskular tumor bocor",
-          "ligand": "Pengikatan spesifik antara ligan dan reseptor"
-        },
-        {
-          "feature": "Distribusi In Vivo",
-          "cmpt": "Tidak ada akumulasi signifikan di jaringan normal",
-          "epr": "Tersisa di hati/ginjal selama beberapa bulan atau bahkan bertahun-tahun",
-          "ligand": "Terdistribusi di hati dan ginjal"
-        },
-        {
-          "feature": "Toksisitas",
-          "cmpt": "Tidak toksik",
-          "epr": "Toksisitas jangka panjang",
-          "ligand": "Toksisitas jangka panjang"
-        }
+        { "feature": "Lokasi Penargetan", "cmpt": "Inti sel tumor", "epr": "Jaringan tumor", "ligand": "Lokasi tumor spesifik" },
+        { "feature": "Efisiensi Penargetan", "cmpt": "> 50%", "epr": "< 5%", "ligand": "< 5%" },
+        { "feature": "Mekanisme Penargetan", "cmpt": "Perubahan permeabilitas membran sel tumor", "epr": "Vaskular tumor bocor", "ligand": "Pengikatan spesifik antara ligan dan reseptor" },
+        { "feature": "Distribusi In Vivo", "cmpt": "Tidak ada akumulasi signifikan di jaringan normal", "epr": "Tersisa di hati/ginjal selama beberapa bulan atau bahkan bertahun-tahun", "ligand": "Terdistribusi di hati dan ginjal" },
+        { "feature": "Toksisitas", "cmpt": "Tidak toksik", "epr": "Toksisitas jangka panjang", "ligand": "Toksisitas jangka panjang" }
       ]
     }
   },
@@ -172,70 +546,29 @@
     "kicker": "Toksisitas minimum, terbukti pada berbagai spesies",
     "title": "Biokompatibilitas Luar Biasa",
     "cards": {
-      "cellSafe": {
-        "title": "Aman bagi Sel",
-        "desc": "Uji in vitro tidak menunjukkan toksisitas signifikan pada sel hidup, bahkan pada konsentrasi tinggi dan waktu paparan lama."
-      },
-      "systemic": {
-        "title": "Tidak Ada Toksisitas Sistemik",
-        "desc": "Setelah injeksi intravena, GTTN tidak menunjukkan efek berbahaya pada fungsi organ, reproduksi, atau kimia darah."
-      },
-      "hepatic": {
-        "title": "Tidak Ada Hepatotoksisitas",
-        "desc": "Fungsi hati tetap normal, mengkonfirmasi biokompatibilitas yang sangat baik pada model hewan besar."
-      },
-      "environment": {
-        "title": "Tidak Ada Toksisitas Lingkungan",
-        "desc": "Uji embrio ikan zebra tidak mengungkapkan toksisitas perkembangan maupun ekologis."
-      }
+      "cellSafe": { "title": "Aman bagi Sel", "desc": "Uji in vitro tidak menunjukkan toksisitas signifikan pada sel hidup, bahkan pada konsentrasi tinggi dan waktu paparan lama." },
+      "systemic": { "title": "Tidak Ada Toksisitas Sistemik", "desc": "Setelah injeksi intravena, GTTN tidak menunjukkan efek berbahaya pada fungsi organ, reproduksi, atau kimia darah." },
+      "hepatic": { "title": "Tidak Ada Hepatotoksisitas", "desc": "Fungsi hati tetap normal, mengkonfirmasi biokompatibilitas yang sangat baik pada model hewan besar." },
+      "environment": { "title": "Tidak Ada Toksisitas Lingkungan", "desc": "Uji embrio ikan zebra tidak mengungkapkan toksisitas perkembangan maupun ekologis." }
     }
   },
   "oneHealth": {
     "kicker": "AI Di Intinya",
     "title": "Nano-Biosintesis Berbasis AI Pertama di Dunia",
     "cards": {
-      "omics": {
-        "title": "Biologi Baru, Omics Baru",
-        "desc": "TransCellOmics: database permeabilitas berbasis AI pertama dan model prediktif."
-      },
-      "generative": {
-        "title": "AI Generatif Bertemu Nanodesain",
-        "desc": "Menggabungkan kemampuan sintesis fleksibel GTTNano dengan AI untuk produk bernilai tinggi."
-      },
-      "dimension": {
-        "title": "Dimensi baru multi-omics",
-        "desc": "Memperkenalkan data real-time dan terselesaikan secara spasial tentang permeabilitas membran sel."
-      }
+      "omics": { "title": "Biologi Baru, Omics Baru", "desc": "TransCellOmics: database permeabilitas berbasis AI pertama dan model prediktif." },
+      "generative": { "title": "AI Generatif Bertemu Nanodesain", "desc": "Menggabungkan kemampuan sintesis fleksibel GTTNano dengan AI untuk produk bernilai tinggi." },
+      "dimension": { "title": "Dimensi baru multi-omics", "desc": "Memperkenalkan data real-time dan terselesaikan secara spasial tentang permeabilitas membran sel." }
     }
   },
   "software": {
     "kicker": "Pipeline kemungkinan",
     "title": "Teknologi Platform",
     "cards": {
-      "dx": {
-        "title": "GTTN-Dx\nGTTN-SCI",
-        "desc": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini tersedia secara komersial.",
-        "plain": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini ",
-        "bold": "tersedia secara komersial."
-      },
-      "navi": {
-        "title": "GTTN-Navi",
-        "desc": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan persetujuan yang diharapkan pada 2026–2027.",
-        "plain": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan ",
-        "bold": "persetujuan yang diharapkan pada 2026–2027."
-      },
-      "tx": {
-        "title": "GTTN-Tx",
-        "desc": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi persetujuan pada 2029.",
-        "plain": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi ",
-        "bold": "persetujuan pada 2029."
-      },
-      "next": {
-        "title": "Berikutnya",
-        "desc": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki pengajuan regulasi segera.",
-        "plain": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki ",
-        "bold": "pengajuan regulasi segera."
-      }
+      "dx": { "title": "GTTN-Dx\nGTTN-SCI", "desc": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini tersedia secara komersial.", "plain": "Untuk skrining kanker dini dan penggunaan riset. Produk telah mendapatkan persetujuan registrasi cFDA dan kini ", "bold": "tersedia secara komersial." },
+      "navi": { "title": "GTTN-Navi", "desc": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan persetujuan yang diharapkan pada 2026–2027.", "plain": "Telah diklasifikasikan sebagai perangkat medis Kelas III dan sedang menjalani tinjauan Breakthrough Device, dengan ", "bold": "persetujuan yang diharapkan pada 2026–2027." },
+      "tx": { "title": "GTTN-Tx", "desc": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi persetujuan pada 2029.", "plain": "Telah mendapatkan klasifikasi sebagai kombinasi obat-perangkat dan kini dalam tinjauan perangkat inovatif, dengan proyeksi ", "bold": "persetujuan pada 2029." },
+      "next": { "title": "Berikutnya", "desc": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki pengajuan regulasi segera.", "plain": "navigasi tumor limfatik, agen kontras CT/MRI, dan pembawa radiofarmasi, beberapa di antaranya memasuki ", "bold": "pengajuan regulasi segera." }
     }
   },
   "library": {
@@ -246,31 +579,19 @@
         "eyebrow": "GTTN-Dx: skrining kanker dini",
         "title": "Skrining Sebelum Gejala",
         "desc": "Solusi terjangkau dan mudah digunakan untuk deteksi risiko kanker spektrum luas di berbagai jenis tumor dengan biaya dan kompleksitas minimal.",
-        "points": [
-          "Deteksi molekuler sensitivitas tinggi",
-          "Kompatibel dengan alur kerja pencitraan klinis standar",
-          "Terdaftar cFDA dan tersedia secara komersial"
-        ]
+        "points": ["Deteksi molekuler sensitivitas tinggi", "Kompatibel dengan alur kerja pencitraan klinis standar", "Terdaftar cFDA dan tersedia secara komersial"]
       },
       "navi": {
         "eyebrow": "GTTN-Navi: memberdayakan patologis dan ahli bedah",
         "title": "Memetakan setiap lesi. Memandu setiap gerakan.",
         "desc": "Visualisasi real-time batas tumor memberi klinisi margin lebih bersih, pemetaan metastasis lebih jelas, dan intervensi lebih percaya diri.",
-        "points": [
-          "Visualisasi margin tumor real-time",
-          "Peta tumor personal untuk pengambilan keputusan",
-          "Perangkat Kelas III dalam tinjauan Breakthrough Device"
-        ]
+        "points": ["Visualisasi margin tumor real-time", "Peta tumor personal untuk pengambilan keputusan", "Perangkat Kelas III dalam tinjauan Breakthrough Device"]
       },
       "science": {
         "eyebrow": "Sertifikasi",
         "title": "Persetujuan registrasi cFDA diperoleh",
         "desc": "Penerapan komersial kini mendukung alur kerja skrining klinis dan riset translasional, menjembatani penemuan dan praktik onkologi dunia nyata.",
-        "points": [
-          "Kepatuhan klinis telah ditetapkan",
-          "Penerapan komersial sedang berjalan",
-          "Mendukung riset translasional"
-        ]
+        "points": ["Kepatuhan klinis telah ditetapkan", "Penerapan komersial sedang berjalan", "Mendukung riset translasional"]
       }
     }
   },

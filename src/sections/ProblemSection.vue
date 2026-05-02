@@ -3,20 +3,20 @@
     <div class="max-w-[1100px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <span class="inline-flex items-center rounded-full bg-[#10193a] px-5 py-1.5 text-[11px] font-semibold tracking-[0.18em] text-white/85 uppercase border border-white/10">
-          The Problem
+          {{ t('sugar.problem.kicker') }}
         </span>
         <h2 class="mt-5 font-['Volkhov'] font-bold text-white text-[26px] sm:text-[34px] md:text-[40px] lg:text-[44px] leading-[1.18] tracking-[-0.01em] max-w-[640px]">
-          A Global Shift Toward Healthier<br class="hidden md:block" /> Sugar Alternatives
+          {{ t('sugar.problem.title') }}
         </h2>
         <p class="mt-4 md:mt-5 text-white/65 text-[14px] md:text-[16px] leading-[1.6] max-w-[520px]">
-          Functional ingredients are becoming a high-growth, premium category.
+          {{ t('sugar.problem.subtitle') }}
         </p>
       </div>
 
       <div class="mt-10 md:mt-14 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-7">
         <div
           v-for="card in cards"
-          :key="card.title"
+          :key="card.key"
           class="flex flex-col"
         >
           <div class="aspect-[4/3] rounded-2xl overflow-hidden">
@@ -31,25 +31,32 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import imgRegulatory from '@/assets/sugar/regulatorypressure.png'
 import imgConsumer from '@/assets/sugar/consumershift.png'
 import imgGrowth from '@/assets/sugar/premiumgrowth.png'
 
-const cards = [
+const { t } = useI18n({ useScope: 'global' })
+
+const cards = computed(() => [
   {
-    title: 'Regulatory Pressure',
-    desc: 'Governments are imposing sugar taxes and stricter labeling requirements, forcing industry-wide reformulation.',
+    key: 'regulatory',
+    title: t('sugar.problem.cards.regulatory.title'),
+    desc: t('sugar.problem.cards.regulatory.desc'),
     image: imgRegulatory,
   },
   {
-    title: 'Consumer Shift',
-    desc: 'Demand is rapidly moving toward low-sugar, clean-label, and functional nutrition products.',
+    key: 'consumer',
+    title: t('sugar.problem.cards.consumer.title'),
+    desc: t('sugar.problem.cards.consumer.desc'),
     image: imgConsumer,
   },
   {
-    title: 'Premium Growth',
-    desc: 'Functional sweeteners and gut-health ingredients are outpacing traditional sugar market growth.',
+    key: 'premium',
+    title: t('sugar.problem.cards.premium.title'),
+    desc: t('sugar.problem.cards.premium.desc'),
     image: imgGrowth,
   },
-]
+])
 </script>

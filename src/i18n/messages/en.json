@@ -73,12 +73,434 @@
         "title": "FOS",
         "desc": "A prebiotic fiber supporting gut health and sugar reduction strategies."
       }
+    },
+    "footer": {
+      "tagline": "A Global Shift Toward Healthier Sugar Alternatives. We introduce a biocatalytic isomaltulose production technology that delivers:",
+      "productsHeading": "Products",
+      "companyHeading": "Company",
+      "contactHeading": "Contact",
+      "links": {
+        "isomalt": "Isomalt",
+        "rebm": "RebM",
+        "fos": "Fructooligosaccharides",
+        "about": "About Us",
+        "technology": "Technology Platform",
+        "applications": "Applications",
+        "investors": "Investors"
+      },
+      "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapore 536465",
+      "email": "contact@8isugar.com",
+      "phone": "+1 (800) 555-0199",
+      "contactSales": "Contact Sales",
+      "rights": "© 2026 8isugar company. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "legal": "Legal"
+    },
+    "cta": {
+      "title": "Redefining the Future of Sugar",
+      "subtitle": "Operational inefficiencies and process constraints limit cost efficiency and large-scale output.",
+      "button": "Request a Live Demo"
+    },
+    "problem": {
+      "kicker": "The Problem",
+      "title": "A Global Shift Toward Healthier Sugar Alternatives",
+      "subtitle": "Functional ingredients are becoming a high-growth, premium category.",
+      "cards": {
+        "regulatory": {
+          "title": "Regulatory Pressure",
+          "desc": "Governments are imposing sugar taxes and stricter labeling requirements, forcing industry-wide reformulation."
+        },
+        "consumer": {
+          "title": "Consumer Shift",
+          "desc": "Demand is rapidly moving toward low-sugar, clean-label, and functional nutrition products."
+        },
+        "premium": {
+          "title": "Premium Growth",
+          "desc": "Functional sweeteners and gut-health ingredients are outpacing traditional sugar market growth."
+        }
+      }
+    },
+    "tech": {
+      "title": "High-Efficiency Biocatalytic Production Technology",
+      "subtitle": "We introduce a biocatalytic isomaltulose production technology that delivers. Operates under mild conditions, significantly reducing energy usage compared to conventional high-temperature processes.",
+      "features": {
+        "innovation": "Process Innovation — 30% Cost Reduction",
+        "purity": "High Purity Output",
+        "green": "Green & Simple Process"
+      }
+    },
+    "pipeline": {
+      "kicker": "Product Pipeline",
+      "title": "Three Complementary Product Platforms",
+      "items": {
+        "rebm": {
+          "title": "Reb M",
+          "desc": "A natural, high-intensity sweetener with a clean sugar-like taste."
+        },
+        "isomalt": {
+          "title": "Isomalt",
+          "desc": "A functional carbohydrate delivering bulk, stability, and low glycemic response."
+        },
+        "fos": {
+          "title": "Fructooligosaccharides",
+          "desc": "A prebiotic fiber supporting gut health and sugar reduction strategies."
+        },
+        "next": {
+          "title": "Next in line",
+          "desc": "It has obtained classification as new sweetener"
+        }
+      }
+    },
+    "costSaving": {
+      "kicker": "Core Advantage",
+      "title": "Cost Saving Breakdown",
+      "traditional": {
+        "heading": "Traditional Process",
+        "bullets": [
+          "Mild condition: 28–30°C, atmospheric pressure",
+          "Reaction time: 12 hours",
+          "No high temperature / high pressure"
+        ]
+      },
+      "new": {
+        "heading": "New Process",
+        "bullets": [
+          "Byproduct reduced: 4.5% → 1%",
+          "Multiple reuse cycles enabled",
+          "Total cost saving: ~30%"
+        ]
+      },
+      "tableCaption": "Process Innovation — 30% Cost Reduction",
+      "table": {
+        "headers": {
+          "item": "Item",
+          "share": "Share",
+          "saving": "Saving",
+          "total": "Total Impact"
+        },
+        "rows": [
+          { "item": "Evaporation", "share": "15%", "saving": "70%", "total": "10.5%" },
+          { "item": "Waste", "share": "10%", "saving": "80%", "total": "8%" },
+          { "item": "Equipment", "share": "10%", "saving": "40%", "total": "4%" },
+          { "item": "Yield gain", "share": "10%", "saving": "40%", "total": "3%" },
+          { "item": "Labor", "share": "10%", "saving": "20%", "total": "1.6%" }
+        ]
+      }
+    },
+    "greenProcess": {
+      "title": "Green & Simple Process",
+      "cards": {
+        "energy": {
+          "title": "Lower energy consumption",
+          "desc": "Operates under mild conditions, significantly reducing energy usage compared to conventional high-temperature processes."
+        },
+        "simplified": {
+          "title": "Simplified production",
+          "desc": "Streamlined process design minimizes steps, making production easier to operate and scale."
+        },
+        "eco": {
+          "title": "Environmentally friendly",
+          "desc": "Green biocatalytic approach reduces emissions and environmental impact throughout the production cycle."
+        }
+      }
+    },
+    "market": {
+      "kicker": "Market Applications",
+      "title": "Go-To-Market Channels."
+    },
+    "about": {
+      "hero": {
+        "title": "About Our Company",
+        "subtitle": "Leading the transformation in sugar alternatives through innovative biocatalytic technology"
+      },
+      "mission": {
+        "badge": "Our Mission",
+        "title": "Redefining Sugar Production for a Healthier Future",
+        "p1": "We are committed to revolutionizing the sugar industry through breakthrough biocatalytic technology. Our mission is to provide sustainable, cost-effective, and healthier sugar alternatives that meet the growing global demand for functional nutrition.",
+        "p2": "By combining cutting-edge science with environmental responsibility, we're accelerating sugar reduction across industries while maintaining the taste and functionality that consumers expect.",
+        "imgAlt": "Sugar being sifted into a bowl"
+      },
+      "values": {
+        "kicker": "Our Values",
+        "title": "What Drives Us Forward",
+        "items": [
+          { "number": "1", "title": "Innovation", "desc": "Pioneering biocatalytic processes that transform how functional sugars are produced globally." },
+          { "number": "2", "title": "Sustainability", "desc": "Green chemistry approach that reduces energy consumption and environmental impact." },
+          { "number": "3", "title": "Quality", "desc": "High-purity output with simplified production processes for consistent excellence." },
+          { "number": "4", "title": "Partnership", "desc": "Collaborating with industry leaders to accelerate the adoption of healthier alternatives." }
+        ]
+      },
+      "leadership": {
+        "kicker": "Leadership",
+        "title": "Expert Team Driving Innovation",
+        "subtitle": "Our multidisciplinary team combines decades of experience in biotechnology, chemical engineering, and sustainable manufacturing.",
+        "cta": {
+          "title": "Join Our Journey",
+          "subtitle": "We're always looking for talented individuals passionate about transforming the food industry",
+          "button": "Get In Touch"
+        }
+      }
+    },
+    "contact": {
+      "hero": {
+        "title": "Get In Touch",
+        "subtitle": "Ready to explore how our innovative sugar alternatives can transform your products? Let's start a conversation."
+      },
+      "cards": {
+        "visit": {
+          "title": "Visit Us",
+          "details": "3 TAI SENG AVENUE, #04-36\nTAI SENG EXCHANGE\nSingapore 536465"
+        },
+        "email": {
+          "title": "Email Us",
+          "details": "contact@8isugar.com\nsales@8isugar.com"
+        },
+        "call": {
+          "title": "Call Us",
+          "details": "+1 (800) 555-0199\n+65 6123 4567"
+        }
+      },
+      "form": {
+        "badge": "Request a Demo",
+        "title": "Let's Discuss Your Sugar Reduction Goals",
+        "subtitle": "Whether you're looking to reformulate existing products or develop new functional nutrition solutions, our team is ready to help you succeed.",
+        "steps": [
+          { "number": "1", "title": "Tell us about your needs", "desc": "Share your current challenges and goals" },
+          { "number": "2", "title": "Schedule a consultation", "desc": "Meet with our technical team" },
+          { "number": "3", "title": "Get a custom solution", "desc": "Receive tailored recommendations" }
+        ],
+        "fields": {
+          "name": "Full Name *",
+          "namePlaceholder": "John Smith",
+          "email": "Email Address *",
+          "emailPlaceholder": "john@company.com",
+          "company": "Company",
+          "companyPlaceholder": "Your Company Name",
+          "phone": "Phone Number",
+          "phonePlaceholder": "+1 (555) 000-0000",
+          "message": "How can we help? *",
+          "messagePlaceholder": "Tell us about your project and goals...",
+          "submit": "Send Message"
+        }
+      }
+    },
+    "isomalt": {
+      "hero": {
+        "title": "8isomalt",
+        "subtitle": "Transforming commodity sucrose into functional carbohydrates"
+      },
+      "overview": {
+        "kicker": "What is 8isomalt?",
+        "title": "Outperforms Traditional Sweeteners",
+        "desc": "Isomalt uniquely combines metabolic safety, industrial stability, and clean-label consumer acceptance. A natural, short-chain prebiotic fiber with multifunctional benefits",
+        "imgAlt": "Isomalt"
+      },
+      "advantages": {
+        "health": {
+          "title": "Health Advantage",
+          "bullets": ["Minimal insulin response", "Stable blood glucose", "Diabetic-friendly energy release"]
+        },
+        "industrial": {
+          "title": "Industrial Advantage",
+          "bullets": ["Low hygroscopicity", "Excellent heat stability", "Stable crystallization"]
+        },
+        "oral": {
+          "title": "Oral Health Advantage",
+          "bullets": ["Not fermented by oral bacteria", "Prevents acid formation", "Tooth-friendly"]
+        },
+        "label": {
+          "title": "Clean Label Advantage",
+          "bullets": ["Derived from sucrose", "Natural ingredient positioning", "Strong consumer acceptance"]
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Core Advantage",
+        "title": "High-Efficiency Immobilized Enzyme Platform",
+        "imgAlt": "Enzyme platform",
+        "tableCaption": "Performance advantage over conventional processes.",
+        "points": {
+          "margin": {
+            "title": "High Gross Margin",
+            "desc": "Commodity sugar is upgraded into high-value functional ingredients—for example, $1/kg sugar converted into isomalt sold at $8/kg with $3/kg processing cost generates $4/kg profit (~50% gross margin)."
+          },
+          "production": {
+            "title": "Efficient Production",
+            "desc": "Optimized enzyme systems and crystallization processes enable high product yield and process efficiency."
+          },
+          "scale": {
+            "title": "Scalable Manufacturing",
+            "desc": "Industrial processes such as concentration, crystallization, centrifugation, and drying support large-scale production capacity."
+          }
+        },
+        "table": {
+          "headers": {
+            "kpi": "KPI",
+            "industry": "Industry Standard",
+            "process": "8isomalt Process"
+          },
+          "rows": [
+            { "kpi": "Conversion Rate", "industry": "~65%", "process": "94–98%" },
+            { "kpi": "Enzyme Reuse", "industry": "Single use", "process": "Multi-cycle" },
+            { "kpi": "Operational Stability", "industry": "Low", "process": "Sustained multi-hour" },
+            { "kpi": "Enzyme Cost Contribution", "industry": "High", "process": "Significantly Reduced" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Beverage Integration", "desc": "Widely used in carbonated and ready-to-drink beverages." },
+          { "title": "Food Product Use", "desc": "Applied in dairy, snacks, and functional nutrition product" },
+          { "title": "Pharmaceutical Formulation", "desc": "Used in sugar-free syrups and medicinal products." }
+        ]
+      }
+    },
+    "fos": {
+      "hero": {
+        "title": "Fructooligosaccharides (FOS)",
+        "subtitle": "Transforming commodity sucrose into functional carbohydrates"
+      },
+      "overview": {
+        "kicker": "What is Fructooligosaccharides (FOS)?",
+        "title": "A Precision Prebiotic Solution",
+        "desc": "Engineered to selectively nourish beneficial gut bacteria. A natural, short-chain prebiotic fiber with multifunctional benefits",
+        "imgAlt": "FOS"
+      },
+      "features": {
+        "microbiome": {
+          "title": "Targeted Microbiome Activation",
+          "desc": "FOS selectively stimulates beneficial bacteria such as Bifidobacteria, improving gut ecosystem balance. This leads to measurable digestive and immune benefits."
+        },
+        "fiber": {
+          "title": "Fast-Acting Functional Fiber",
+          "desc": "Due to its short-chain structure, FOS is rapidly fermented in the colon. This allows quicker physiological response compared to longer-chain fibers."
+        },
+        "integration": {
+          "title": "Seamless Product Integration",
+          "desc": "Its high solubility and mild sweetness make it easy to incorporate into beverages, dairy, and supplements without compromising taste."
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Core Advantage",
+        "title": "Strong Unit Economics with Scalable Upside",
+        "imgAlt": "Production system",
+        "tableCaption": "FOS vs Key Prebiotic Competitors",
+        "points": {
+          "model": {
+            "title": "Efficient Production Model",
+            "desc": "Enzymatic conversion from sucrose enables scalable and consistent manufacturing. This reduces supply chain volatility."
+          },
+          "density": {
+            "title": "High Value Density",
+            "desc": "Small inclusion levels deliver significant functional benefits. This allows premium pricing without heavily impacting product cost."
+          },
+          "margin": {
+            "title": "Margin Expansion Lever",
+            "desc": "FOS enhances product positioning (gut health, low sugar), enabling higher retail pricing. Brands can improve margins while maintaining competitiveness."
+          }
+        },
+        "table": {
+          "headers": {
+            "feature": "Features",
+            "gos": "GOS",
+            "fos": "FOS"
+          },
+          "rows": [
+            { "feature": "Chain Length", "gos": "Short-chain", "fos": "Short-chain" },
+            { "feature": "Fermentation Speed", "gos": "Fast", "fos": "Medium" },
+            { "feature": "Digestive Tolerance", "gos": "Low", "fos": "Moderate" },
+            { "feature": "Cost Efficiency", "gos": "Low (expensive)", "fos": "High" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Functional Beverages", "desc": "Includes ready-to-drink gut health beverages, fiber drinks, and low-sugar formulations." },
+          { "title": "Dairy & Dairy Alternatives", "desc": "Yogurt, probiotic drinks, and plant-based dairy increasingly incorporate prebiotics like FOS." },
+          { "title": "Dietary Supplements", "desc": "Capsules, powders, and sachets targeting gut health and immunity" }
+        ]
+      }
+    },
+    "rebm": {
+      "hero": {
+        "title": "REB M",
+        "subtitle": "Transforming abundant Reb A into premium Reb M through biotechnology"
+      },
+      "overview": {
+        "kicker": "What is Reb M?",
+        "title": "Enzymatic Conversion Unlocks Scalable Production",
+        "desc": "Transforming abundant Reb A into premium Reb M through biotechnology",
+        "imgAlt": "Reb M"
+      },
+      "features": {
+        "conversion": {
+          "title": "Reb A Conversion Strategy",
+          "desc": "Abundant and low-cost Reb A is enzymatically converted into high-value Reb M through targeted glycosylation."
+        },
+        "controlled": {
+          "title": "Controlled Production System",
+          "desc": "Biocatalytic processes enable precise control over reaction conditions, ensuring consistent product quality."
+        },
+        "scalable": {
+          "title": "Scalable Biotech Approach",
+          "desc": "Production is decoupled from agricultural limitations, enabling industrial-scale manufacturing."
+        },
+        "cost": {
+          "title": "Cost-Efficient Output",
+          "desc": "High conversion efficiency and optimized inputs significantly reduce cost per unit of Reb M."
+        }
+      },
+      "coreAdvantage": {
+        "kicker": "Core Advantage",
+        "title": "Why Reb M is Important & Cost Effective",
+        "imgAlt": "Production system",
+        "tableCaption": "Traditional stevia components such as Reb A have a bitter aftertaste.",
+        "points": {
+          "raw": {
+            "title": "Low-Cost Raw Material",
+            "desc": "Reb A is significantly cheaper and more abundant than Reb M. This makes it an ideal substrate for large-scale conversion."
+          },
+          "yield": {
+            "title": "Efficient Conversion Yield",
+            "desc": "High conversion rates (>80–97%) maximize production output. This allows more Reb M to be produced from the same input volume."
+          },
+          "processing": {
+            "title": "Lower Processing Cost",
+            "desc": "Simplified purification reduces downstream operational expenses. Fewer impurities lead to less complex separation and lower energy usage."
+          }
+        },
+        "table": {
+          "headers": {
+            "item": "Item",
+            "share": "Share",
+            "saving": "Saving",
+            "total": "Total Impact"
+          },
+          "rows": [
+            { "item": "Evaporation", "share": "15%", "saving": "70%", "total": "10.5%" },
+            { "item": "Waste", "share": "10%", "saving": "80%", "total": "8%" },
+            { "item": "Equipment", "share": "10%", "saving": "40%", "total": "4%" },
+            { "item": "Yield gain", "share": "10%", "saving": "40%", "total": "3%" },
+            { "item": "Labor", "share": "10%", "saving": "20%", "total": "1.6%" }
+          ]
+        }
+      },
+      "market": {
+        "cards": [
+          { "title": "Beverage Integration", "desc": "Widely used in carbonated and ready-to-drink beverages." },
+          { "title": "Food Product Use", "desc": "Applied in dairy, snacks, and functional nutrition product" },
+          { "title": "Pharmaceutical Formulation", "desc": "Used in sugar-free syrups and medicinal products." }
+        ]
+      }
+    },
+    "productHero": {
+      "cta": "Contact for Demo"
     }
   },
   "hero": {
     "kicker": "AI-native nano-precision oncology platform",
     "title": "The Future of Early Cancer Detection",
-    "subtitle": "World’s first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
+    "subtitle": "World's first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
     "primaryCta": "Request a Live Demo",
     "secondaryCta": "Explore the Platform",
     "cardTitle": "Future-forward innovation",
@@ -92,7 +514,7 @@
     "cards": {
       "gap": {
         "title": "Precision Gap",
-        "desc": "Bridging oncology’s precision deficit across diagnosis, surgery, and therapy could save millions of lives - and it’s a US$400 billion market correction waiting to happen"
+        "desc": "Bridging oncology's precision deficit across diagnosis, surgery, and therapy could save millions of lives - and it's a US$400 billion market correction waiting to happen"
       },
       "limitations": {
         "title": "Conventional Limitations",
@@ -135,36 +557,11 @@
         "ligand": "Ligand-Mediated Targeting"
       },
       "rows": [
-        {
-          "feature": "Targeting Site",
-          "cmpt": "Tumor cell nucleus",
-          "epr": "Tumor tissue",
-          "ligand": "Specific tumor sites"
-        },
-        {
-          "feature": "Targeting Efficiency",
-          "cmpt": "> 50%",
-          "epr": "< 5%",
-          "ligand": "< 5%"
-        },
-        {
-          "feature": "Targeting Mechanism",
-          "cmpt": "Tumor cell membrane permeability alteration",
-          "epr": "Leaky tumor vasculature",
-          "ligand": "Specific binding between ligand and receptor"
-        },
-        {
-          "feature": "In Vivo Distribution",
-          "cmpt": "No significant accumulation in normal tissues",
-          "epr": "Remains in liver/kidney for several months or even years",
-          "ligand": "Distributed in liver and kidney"
-        },
-        {
-          "feature": "Toxicity",
-          "cmpt": "Non-toxic",
-          "epr": "Long-term toxicity",
-          "ligand": "Long-term toxicity"
-        }
+        { "feature": "Targeting Site", "cmpt": "Tumor cell nucleus", "epr": "Tumor tissue", "ligand": "Specific tumor sites" },
+        { "feature": "Targeting Efficiency", "cmpt": "> 50%", "epr": "< 5%", "ligand": "< 5%" },
+        { "feature": "Targeting Mechanism", "cmpt": "Tumor cell membrane permeability alteration", "epr": "Leaky tumor vasculature", "ligand": "Specific binding between ligand and receptor" },
+        { "feature": "In Vivo Distribution", "cmpt": "No significant accumulation in normal tissues", "epr": "Remains in liver/kidney for several months or even years", "ligand": "Distributed in liver and kidney" },
+        { "feature": "Toxicity", "cmpt": "Non-toxic", "epr": "Long-term toxicity", "ligand": "Long-term toxicity" }
       ]
     }
   },
@@ -172,70 +569,29 @@
     "kicker": "Minimum-Toxicity, Proven Across Species",
     "title": "Exceptional Biocompatibility",
     "cards": {
-      "cellSafe": {
-        "title": "Cell Safe",
-        "desc": "In vitro tests show no significant toxicity to living cells, even at high concentrations and long exposure times."
-      },
-      "systemic": {
-        "title": "No Systemic Toxicity",
-        "desc": "After intravenous injection, GTTN showed no harmful effects on organ function, reproduction, or blood chemistry."
-      },
-      "hepatic": {
-        "title": "No Hepatotoxicity",
-        "desc": "Liver function remains normal, confirming excellent biocompatibility in large animal models."
-      },
-      "environment": {
-        "title": "No Environmental Toxicity",
-        "desc": "Zebrafish embryo tests revealed no developmental or ecological toxicity."
-      }
+      "cellSafe": { "title": "Cell Safe", "desc": "In vitro tests show no significant toxicity to living cells, even at high concentrations and long exposure times." },
+      "systemic": { "title": "No Systemic Toxicity", "desc": "After intravenous injection, GTTN showed no harmful effects on organ function, reproduction, or blood chemistry." },
+      "hepatic": { "title": "No Hepatotoxicity", "desc": "Liver function remains normal, confirming excellent biocompatibility in large animal models." },
+      "environment": { "title": "No Environmental Toxicity", "desc": "Zebrafish embryo tests revealed no developmental or ecological toxicity." }
     }
   },
   "oneHealth": {
     "kicker": "AI At Its Core",
-    "title": "World’s 1st AI-Native Nano-Biosynthesis",
+    "title": "World's 1st AI-Native Nano-Biosynthesis",
     "cards": {
-      "omics": {
-        "title": "New Biology, New Omics",
-        "desc": "TransCellOmics: 1st AI-driven permeability database and predictive model."
-      },
-      "generative": {
-        "title": "Generative AI Meets Nanodesign",
-        "desc": "Combining GTTNano’s flexible synthesis capabilities with AI for high value products."
-      },
-      "dimension": {
-        "title": "A new dimension of multi-omics",
-        "desc": "Introducing real-time, spatially resolved data on cell membrane permeability."
-      }
+      "omics": { "title": "New Biology, New Omics", "desc": "TransCellOmics: 1st AI-driven permeability database and predictive model." },
+      "generative": { "title": "Generative AI Meets Nanodesign", "desc": "Combining GTTNano's flexible synthesis capabilities with AI for high value products." },
+      "dimension": { "title": "A new dimension of multi-omics", "desc": "Introducing real-time, spatially resolved data on cell membrane permeability." }
     }
   },
   "software": {
     "kicker": "Pipeline of possibilities",
     "title": "Platform Technology",
     "cards": {
-      "dx": {
-        "title": "GTTN-Dx\nGTTN-SCI",
-        "desc": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now commercially available.",
-        "plain": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now ",
-        "bold": "commercially available."
-      },
-      "navi": {
-        "title": "GTTN-Navi",
-        "desc": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with expected approval by 2026–2027.",
-        "plain": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with ",
-        "bold": "expected approval by 2026–2027."
-      },
-      "tx": {
-        "title": "GTTN-Tx",
-        "desc": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected approval by 2029.",
-        "plain": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected ",
-        "bold": "approval by 2029."
-      },
-      "next": {
-        "title": "Next in Line",
-        "desc": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering regulatory submission soon.",
-        "plain": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering ",
-        "bold": "regulatory submission soon."
-      }
+      "dx": { "title": "GTTN-Dx\nGTTN-SCI", "desc": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now commercially available.", "plain": "For Cancer Early Screening and Research Use. Products have already received cFDA registration approval and are now ", "bold": "commercially available." },
+      "navi": { "title": "GTTN-Navi", "desc": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with expected approval by 2026–2027.", "plain": "It has been classified as a Class III medical device and is undergoing Breakthrough Device review, with ", "bold": "expected approval by 2026–2027." },
+      "tx": { "title": "GTTN-Tx", "desc": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected approval by 2029.", "plain": "It has obtained classification as a drug-device combination and is now under innovative device review, with projected ", "bold": "approval by 2029." },
+      "next": { "title": "Next in Line", "desc": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering regulatory submission soon.", "plain": "lymphatic tumor navigation, CT/MRI contrast agents, and radiopharmaceutical carriers, several entering ", "bold": "regulatory submission soon." }
     }
   },
   "library": {
@@ -246,31 +602,19 @@
         "eyebrow": "GTTN-Dx: early cancer screening",
         "title": "Screen before Symptoms",
         "desc": "An affordable, easy-to-use solution for broad-spectrum cancer risk detection across multiple tumor types with minimal cost and complexity.",
-        "points": [
-          "High-sensitivity molecular detection",
-          "Compatible with standard clinical imaging workflows",
-          "cFDA registered and commercially available"
-        ]
+        "points": ["High-sensitivity molecular detection", "Compatible with standard clinical imaging workflows", "cFDA registered and commercially available"]
       },
       "navi": {
         "eyebrow": "GTTN-Navi: empowering pathologists and surgeons",
         "title": "Maps every lesion. Guides every move.",
         "desc": "Real-time visualization of tumor boundaries gives clinicians cleaner margins, clearer metastasis mapping, and more confident interventions.",
-        "points": [
-          "Real-time tumor margin visualization",
-          "Personalized tumor maps for decision-making",
-          "Class III device under Breakthrough Device review"
-        ]
+        "points": ["Real-time tumor margin visualization", "Personalized tumor maps for decision-making", "Class III device under Breakthrough Device review"]
       },
       "science": {
         "eyebrow": "Certification",
         "title": "cFDA registration approval secured",
         "desc": "Commercial deployment now supports both clinical screening workflows and translational research, bridging discovery and real-world oncology practice.",
-        "points": [
-          "Clinical compliance established",
-          "Commercial deployment underway",
-          "Supports translational research"
-        ]
+        "points": ["Clinical compliance established", "Commercial deployment underway", "Supports translational research"]
       }
     }
   },
@@ -287,7 +631,7 @@
   },
   "contact": {
     "title": "Contact GTTNano",
-    "subtitle": "World’s first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
+    "subtitle": "World's first AI-native, nano-precision platform designed to revolutionize how we detect and treat cancer.",
     "addressLabel": "Address",
     "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapore 536465",
     "emailLabel": "Email",

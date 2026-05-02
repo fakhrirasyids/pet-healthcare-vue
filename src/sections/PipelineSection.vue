@@ -1,9 +1,9 @@
 <template>
   <section class="bg-[#eaf2ff] px-6 md:px-10 lg:px-12 py-16 md:py-20 lg:py-24">
     <div class="max-w-[1100px] mx-auto">
-      <p class="text-[11px] font-semibold tracking-[0.18em] text-[#475467] uppercase">Product Pipeline</p>
+      <p class="text-[11px] font-semibold tracking-[0.18em] text-[#475467] uppercase">{{ t('sugar.pipeline.kicker') }}</p>
       <h2 class="mt-3 font-['Volkhov'] font-bold text-[#0a1226] text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] leading-[1.2] tracking-[-0.01em]">
-        Three Complementary Product Platforms
+        {{ t('sugar.pipeline.title') }}
       </h2>
 
       <!-- Connector line (desktop) -->
@@ -17,7 +17,7 @@
       <div class="mt-6 md:mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-6">
         <button
           v-for="item in items"
-          :key="item.title"
+          :key="item.key"
           class="rounded-2xl bg-white border border-[#1652f0]/15 p-5 text-left hover:shadow-[0_12px_32px_rgba(22,82,240,0.10)] transition-shadow"
           @click="item.page && emit('navigate', item.page)"
           :disabled="!item.page"
@@ -34,6 +34,8 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import imgRebM from '@/assets/sugar/rebm.png'
 import imgIsomalt from '@/assets/sugar/isomalt.png'
 import imgFos from '@/assets/sugar/fos.png'
@@ -43,10 +45,12 @@ const emit = defineEmits<{
   (e: 'navigate', page: PageName): void
 }>()
 
-const items: { page: PageName | null; title: string; desc: string; image: string | null }[] = [
-  { page: 'rebm', title: 'Reb M', desc: 'A natural, high-intensity sweetener with a clean sugar-like taste.', image: imgRebM },
-  { page: 'isomalt', title: 'Isomalt', desc: 'A functional carbohydrate delivering bulk, stability, and low glycemic response.', image: imgIsomalt },
-  { page: 'fos', title: 'Fructooligosaccharides', desc: 'A prebiotic fiber supporting gut health and sugar reduction strategies.', image: imgFos },
-  { page: null, title: 'Next in line', desc: 'It has obtained classification as new sweetener', image: null },
-]
+const { t } = useI18n({ useScope: 'global' })
+
+const items = computed(() => [
+  { key: 'rebm', page: 'rebm' as PageName, title: t('sugar.pipeline.items.rebm.title'), desc: t('sugar.pipeline.items.rebm.desc'), image: imgRebM },
+  { key: 'isomalt', page: 'isomalt' as PageName, title: t('sugar.pipeline.items.isomalt.title'), desc: t('sugar.pipeline.items.isomalt.desc'), image: imgIsomalt },
+  { key: 'fos', page: 'fos' as PageName, title: t('sugar.pipeline.items.fos.title'), desc: t('sugar.pipeline.items.fos.desc'), image: imgFos },
+  { key: 'next', page: null as PageName | null, title: t('sugar.pipeline.items.next.title'), desc: t('sugar.pipeline.items.next.desc'), image: null },
+])
 </script>

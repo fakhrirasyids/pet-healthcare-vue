@@ -3,14 +3,14 @@
     <div class="max-w-[1100px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <h2 class="font-['Volkhov'] font-bold text-[#0a1226] text-[26px] sm:text-[32px] md:text-[40px] lg:text-[44px] leading-[1.18] tracking-[-0.01em]">
-          Green &amp; Simple Process
+          {{ t('sugar.greenProcess.title') }}
         </h2>
       </div>
 
       <div class="mt-10 md:mt-14 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-10">
         <div
           v-for="card in cards"
-          :key="card.title"
+          :key="card.key"
           class="flex flex-col items-center text-center"
         >
           <div class="w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden bg-[#f0f3fa]">
@@ -25,25 +25,32 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import imgP1 from '@/assets/sugar/process1.png'
 import imgP2 from '@/assets/sugar/process2.png'
 import imgP3 from '@/assets/sugar/process3.png'
 
-const cards = [
+const { t } = useI18n({ useScope: 'global' })
+
+const cards = computed(() => [
   {
-    title: 'Lower energy consumption',
-    desc: 'Operates under mild conditions, significantly reducing energy usage compared to conventional high-temperature processes.',
+    key: 'energy',
+    title: t('sugar.greenProcess.cards.energy.title'),
+    desc: t('sugar.greenProcess.cards.energy.desc'),
     image: imgP1,
   },
   {
-    title: 'Simplified production',
-    desc: 'Streamlined process design minimizes steps, making production easier to operate and scale.',
+    key: 'simplified',
+    title: t('sugar.greenProcess.cards.simplified.title'),
+    desc: t('sugar.greenProcess.cards.simplified.desc'),
     image: imgP2,
   },
   {
-    title: 'Environmentally friendly',
-    desc: 'Green biocatalytic approach reduces emissions and environmental impact throughout the production cycle.',
+    key: 'eco',
+    title: t('sugar.greenProcess.cards.eco.title'),
+    desc: t('sugar.greenProcess.cards.eco.desc'),
     image: imgP3,
   },
-]
+])
 </script>

@@ -1,7 +1,7 @@
 <template>
   <ProductHero
-    title="8isomalt"
-    subtitle="Transforming commodity sucrose into functional carbohydrates"
+    :title="t('sugar.isomalt.hero.title')"
+    :subtitle="t('sugar.isomalt.hero.subtitle')"
     :bg="bgHero"
     @contact="emit('navigate', 'contact')"
   />
@@ -11,23 +11,23 @@
     <div class="max-w-[1100px] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
         <div class="lg:col-span-7">
-          <p class="text-[12px] font-semibold tracking-[0.04em] text-[#1652f0]">What is 8isomalt?</p>
+          <p class="text-[12px] font-semibold tracking-[0.04em] text-[#1652f0]">{{ t('sugar.isomalt.overview.kicker') }}</p>
           <h2 class="mt-3 font-['Volkhov'] font-bold text-[#0a1226] text-[26px] sm:text-[32px] md:text-[38px] lg:text-[42px] leading-[1.2] tracking-[-0.01em]">
-            Outperforms<br /> Traditional Sweeteners
+            {{ t('sugar.isomalt.overview.title') }}
           </h2>
           <p class="mt-5 text-[14px] md:text-[15px] text-[#475467] leading-[1.7] max-w-[560px]">
-            Isomalt uniquely combines metabolic safety, industrial stability, and clean-label consumer acceptance. A natural, short-chain prebiotic fiber with multifunctional benefits
+            {{ t('sugar.isomalt.overview.desc') }}
           </p>
         </div>
         <div class="lg:col-span-5 flex justify-center lg:justify-end">
           <div class="w-44 h-44 md:w-56 md:h-56 rounded-full overflow-hidden bg-[#f0f3fa] border border-white">
-            <img :src="imgIsomalt" alt="Isomalt" class="w-full h-full object-cover" />
+            <img :src="imgIsomalt" :alt="t('sugar.isomalt.overview.imgAlt')" class="w-full h-full object-cover" />
           </div>
         </div>
       </div>
 
       <div class="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-7">
-        <div v-for="adv in advantages" :key="adv.title" class="flex flex-col">
+        <div v-for="adv in advantages" :key="adv.key" class="flex flex-col">
           <div class="flex h-9 w-9 items-center justify-center rounded-full bg-[#1652f0] text-white">
             <component :is="adv.icon" :size="16" stroke-width="2.4" />
           </div>
@@ -45,19 +45,19 @@
     <div class="max-w-[1100px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <span class="inline-flex items-center rounded-full bg-[#10193a] px-5 py-1.5 text-[11px] font-semibold tracking-[0.18em] text-white/85 uppercase border border-white/10">
-          Core Advantage
+          {{ t('sugar.isomalt.coreAdvantage.kicker') }}
         </span>
         <h2 class="mt-5 font-['Volkhov'] font-bold text-white text-[26px] sm:text-[32px] md:text-[40px] lg:text-[44px] leading-[1.18] tracking-[-0.01em] max-w-[820px]">
-          High-Efficiency Immobilized Enzyme Platform
+          {{ t('sugar.isomalt.coreAdvantage.title') }}
         </h2>
       </div>
 
       <div class="mt-10 md:mt-14 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         <div class="lg:col-span-5 rounded-2xl overflow-hidden">
-          <img :src="imgAdvantage" alt="Enzyme platform" class="w-full h-auto" />
+          <img :src="imgAdvantage" :alt="t('sugar.isomalt.coreAdvantage.imgAlt')" class="w-full h-auto" />
         </div>
         <div class="lg:col-span-7 text-white space-y-7">
-          <div v-for="point in points" :key="point.title">
+          <div v-for="point in points" :key="point.key">
             <h3 class="font-semibold text-[16px] md:text-[18px]">{{ point.title }}</h3>
             <p class="mt-2 text-[13px] md:text-[14px] text-white/75 leading-[1.7] max-w-[520px]">{{ point.desc }}</p>
           </div>
@@ -66,18 +66,18 @@
 
       <!-- KPI Table -->
       <div class="mt-12 md:mt-16">
-        <p class="text-white/85 text-[14px] md:text-[16px] mb-4">Performance advantage over conventional processes.</p>
+        <p class="text-white/85 text-[14px] md:text-[16px] mb-4">{{ t('sugar.isomalt.coreAdvantage.tableCaption') }}</p>
         <div class="overflow-x-auto rounded-2xl border border-white/10">
           <table class="w-full min-w-[640px] border-collapse text-left">
             <thead>
               <tr class="bg-[#10193a]">
-                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">KPI</th>
-                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">Industry Standard</th>
-                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">8isomalt Process</th>
+                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">{{ t('sugar.isomalt.coreAdvantage.table.headers.kpi') }}</th>
+                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">{{ t('sugar.isomalt.coreAdvantage.table.headers.industry') }}</th>
+                <th class="px-5 md:px-6 py-3.5 text-[12px] md:text-[13px] font-semibold text-white border-b border-white/10">{{ t('sugar.isomalt.coreAdvantage.table.headers.process') }}</th>
               </tr>
             </thead>
             <tbody>
-              <tr v-for="(row, i) in kpiRows" :key="row.kpi" :class="i % 2 === 0 ? 'bg-transparent' : 'bg-white/[0.02]'">
+              <tr v-for="(row, i) in tm('sugar.isomalt.coreAdvantage.table.rows') as any[]" :key="i" :class="i % 2 === 0 ? 'bg-transparent' : 'bg-white/[0.02]'">
                 <td class="px-5 md:px-6 py-3.5 text-[13px] md:text-[14px] font-semibold text-white border-b border-white/10 last:border-b-0">{{ row.kpi }}</td>
                 <td class="px-5 md:px-6 py-3.5 text-[13px] md:text-[14px] text-white/75 border-b border-white/10 last:border-b-0">{{ row.industry }}</td>
                 <td class="px-5 md:px-6 py-3.5 text-[13px] md:text-[14px] text-white/75 border-b border-white/10 last:border-b-0">{{ row.process }}</td>
@@ -89,10 +89,12 @@
     </div>
   </section>
 
-  <MarketChannelsSection :cards="marketCards" />
+  <MarketChannelsSection :cards="marketCards" :kicker="t('sugar.market.kicker')" :title="t('sugar.market.title')" />
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { Eye, Zap, Leaf, Settings } from 'lucide-vue-next'
 import ProductHero from '@/sections/ProductHero.vue'
 import MarketChannelsSection from '@/sections/MarketChannelsSection.vue'
@@ -110,38 +112,23 @@ const emit = defineEmits<{
   (e: 'navigate', page: PageName): void
 }>()
 
-const advantages = [
-  { icon: Eye, title: 'Health Advantage', bullets: ['Minimal insulin response', 'Stable blood glucose', 'Diabetic-friendly energy release'] },
-  { icon: Zap, title: 'Industrial Advantage', bullets: ['Low hygroscopicity', 'Excellent heat stability', 'Stable crystallization'] },
-  { icon: Leaf, title: 'Oral Health Advantage', bullets: ['Not fermented by oral bacteria', 'Prevents acid formation', 'Tooth-friendly'] },
-  { icon: Settings, title: 'Clean Label Advantage', bullets: ['Derived from sucrose', 'Natural ingredient positioning', 'Strong consumer acceptance'] },
-]
+const { t, tm } = useI18n({ useScope: 'global' })
 
-const points = [
-  {
-    title: 'High Gross Margin',
-    desc: 'Commodity sugar is upgraded into high-value functional ingredients—for example, $1/kg sugar converted into isomalt sold at $8/kg with $3/kg processing cost generates $4/kg profit (~50% gross margin).',
-  },
-  {
-    title: 'Efficient Production',
-    desc: 'Optimized enzyme systems and crystallization processes enable high product yield and process efficiency.',
-  },
-  {
-    title: 'Scalable Manufacturing',
-    desc: 'Industrial processes such as concentration, crystallization, centrifugation, and drying support large-scale production capacity.',
-  },
-]
+const advantages = computed(() => [
+  { key: 'health', icon: Eye, title: t('sugar.isomalt.advantages.health.title'), bullets: tm('sugar.isomalt.advantages.health.bullets') as string[] },
+  { key: 'industrial', icon: Zap, title: t('sugar.isomalt.advantages.industrial.title'), bullets: tm('sugar.isomalt.advantages.industrial.bullets') as string[] },
+  { key: 'oral', icon: Leaf, title: t('sugar.isomalt.advantages.oral.title'), bullets: tm('sugar.isomalt.advantages.oral.bullets') as string[] },
+  { key: 'label', icon: Settings, title: t('sugar.isomalt.advantages.label.title'), bullets: tm('sugar.isomalt.advantages.label.bullets') as string[] },
+])
 
-const kpiRows = [
-  { kpi: 'Conversion Rate', industry: '~65%', process: '94–98%' },
-  { kpi: 'Enzyme Reuse', industry: 'Single use', process: 'Multi-cycle' },
-  { kpi: 'Operational Stability', industry: 'Low', process: 'Sustained multi-hour' },
-  { kpi: 'Enzyme Cost Contribution', industry: 'High', process: 'Significantly Reduced' },
-]
+const points = computed(() => [
+  { key: 'margin', title: t('sugar.isomalt.coreAdvantage.points.margin.title'), desc: t('sugar.isomalt.coreAdvantage.points.margin.desc') },
+  { key: 'production', title: t('sugar.isomalt.coreAdvantage.points.production.title'), desc: t('sugar.isomalt.coreAdvantage.points.production.desc') },
+  { key: 'scale', title: t('sugar.isomalt.coreAdvantage.points.scale.title'), desc: t('sugar.isomalt.coreAdvantage.points.scale.desc') },
+])
 
-const marketCards = [
-  { title: 'Beverage Integration', desc: 'Widely used in carbonated and ready-to-drink beverages.', image: imgM1 },
-  { title: 'Food Product Use', desc: 'Applied in dairy, snacks, and functional nutrition product', image: imgM2 },
-  { title: 'Pharmaceutical Formulation', desc: 'Used in sugar-free syrups and medicinal products.', image: imgM3 },
-]
+const marketCards = computed(() => (tm('sugar.isomalt.market.cards') as any[]).map((c, i) => ({
+  ...c,
+  image: [imgM1, imgM2, imgM3][i],
+})))
 </script>

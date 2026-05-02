@@ -4,14 +4,14 @@
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
         <div class="lg:col-span-7">
           <h2 class="font-['Volkhov'] font-bold text-[#0a1226] text-[26px] sm:text-[32px] md:text-[36px] lg:text-[40px] leading-[1.2] tracking-[-0.01em]">
-            High-Efficiency Biocatalytic<br class="hidden md:block" /> Production Technology
+            {{ t('sugar.tech.title') }}
           </h2>
           <p class="mt-5 text-[14px] md:text-[15px] text-[#475467] leading-[1.7] max-w-[540px]">
-            We introduce a biocatalytic isomaltulose production technology that delivers. Operates under mild conditions, significantly reducing energy usage compared to conventional high-temperature processes.
+            {{ t('sugar.tech.subtitle') }}
           </p>
 
           <div class="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-5 md:gap-6">
-            <div v-for="feat in features" :key="feat.title" class="flex items-start gap-3">
+            <div v-for="feat in features" :key="feat.key" class="flex items-start gap-3">
               <div class="flex h-9 w-9 flex-shrink-0 items-center justify-center rounded-full bg-[#1652f0] text-white">
                 <component :is="feat.icon" :size="16" stroke-width="2.4" />
               </div>
@@ -45,16 +45,16 @@
 </template>
 
 <script setup lang="ts">
+import { computed } from 'vue'
+import { useI18n } from 'vue-i18n'
 import { Eye, Zap, Leaf } from 'lucide-vue-next'
 import imgDevice from '@/assets/sugar/devices.png'
 
-const features = [
-  { icon: Eye, title: 'Process Innovation — 30% Cost Reduction' },
-  { icon: Zap, title: 'High Purity Output' },
-  { icon: Leaf, title: 'Green & Simple Process' },
-]
-</script>
+const { t } = useI18n({ useScope: 'global' })
 
-<style scoped>
-/* The brand badge image is rendered with a gradient backdrop in the design — keep behavior simple */
-</style>
+const features = computed(() => [
+  { key: 'innovation', icon: Eye, title: t('sugar.tech.features.innovation') },
+  { key: 'purity', icon: Zap, title: t('sugar.tech.features.purity') },
+  { key: 'green', icon: Leaf, title: t('sugar.tech.features.green') },
+])
+</script>

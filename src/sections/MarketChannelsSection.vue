@@ -3,10 +3,10 @@
     <div class="max-w-[1100px] mx-auto">
       <div class="flex flex-col items-center text-center">
         <span class="inline-flex items-center rounded-full bg-white px-5 py-1.5 text-[11px] font-semibold tracking-[0.18em] text-[#1652f0] uppercase">
-          Market Applications
+          {{ kicker }}
         </span>
         <h2 class="mt-5 font-['Volkhov'] font-bold text-[#0a1226] text-[26px] sm:text-[34px] md:text-[40px] lg:text-[44px] leading-[1.18] tracking-[-0.01em]">
-          Go-To-Market Channels.
+          {{ title }}
         </h2>
       </div>
 
@@ -30,5 +30,7 @@
 <script setup lang="ts">
 defineProps<{
   cards: { title: string; desc: string; image: string }[]
+  kicker: string
+  title: string
 }>()
 </script>
