@@ -89,7 +89,7 @@
         "investors": "投资者"
       },
       "address": "新加坡大成路3号#04-36大成交易所 536465",
-      "email": "contact@8isugar.com",
+      "email": "contact{'@'}8isugar.com",
       "phone": "+1 (800) 555-0199",
       "contactSales": "联系销售",
       "rights": "© 2026 8isugar公司。保留所有权利。",
@@ -254,7 +254,7 @@
         },
         "email": {
           "title": "发送邮件",
-          "details": "contact@8isugar.com\nsales@8isugar.com"
+          "details": "contact{'@'}8isugar.com\nsales{'@'}8isugar.com"
         },
         "call": {
           "title": "致电我们",

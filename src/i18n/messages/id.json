@@ -89,7 +89,7 @@
         "investors": "Investor"
       },
       "address": "3 TAI SENG AVENUE, #04-36, TAI SENG EXCHANGE, Singapura 536465",
-      "email": "contact@8isugar.com",
+      "email": "contact{'@'}8isugar.com",
       "phone": "+1 (800) 555-0199",
       "contactSales": "Hubungi Sales",
       "rights": "© 2026 8isugar company. Hak cipta dilindungi.",
@@ -254,7 +254,7 @@
         },
         "email": {
           "title": "Email Kami",
-          "details": "contact@8isugar.com\nsales@8isugar.com"
+          "details": "contact{'@'}8isugar.com\nsales{'@'}8isugar.com"
         },
         "call": {
           "title": "Hubungi Kami",
